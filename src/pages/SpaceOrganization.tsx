@@ -1,3 +1,4 @@
+
 import { ArrowLeft, Layout, Sofa, ChefHat, Bed, Bath, Shirt, Lightbulb } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -79,6 +80,58 @@ const SpaceOrganization = () => {
                   />
                   <div className="bg-warm-brown-50 p-3 text-center">
                     <p className="text-warm-brown-700 text-sm">Exemplo de organização da sala com móveis compactos e funcionais</p>
+                  </div>
+                </div>
+
+                {/* Medidas Adequadas dos Móveis */}
+                <div className="bg-blue-50 rounded-lg p-6 mb-8">
+                  <h3 className="text-lg font-semibold text-blue-800 mb-4">📏 Medidas Adequadas dos Móveis</h3>
+                  
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="bg-white p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
+                        <Sofa className="w-5 h-5 mr-2 text-blue-600" />
+                        Sala de Estar
+                      </h4>
+                      <div className="space-y-2 text-sm">
+                        <div className="flex justify-between">
+                          <span className="text-sage-green-700 font-medium">Sofá:</span>
+                        </div>
+                        <div className="ml-4 space-y-1 text-sage-green-600">
+                          <div>• Comprimento máximo: <span className="font-semibold">2,65m</span></div>
+                          <div>• Profundidade máxima: <span className="font-semibold">0,95m</span></div>
+                        </div>
+                        <div className="flex justify-between mt-3">
+                          <span className="text-sage-green-700 font-medium">Rack TV:</span>
+                        </div>
+                        <div className="ml-4 text-sage-green-600">
+                          <div>• Profundidade máxima: <span className="font-semibold">0,35m</span></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
+                        <ChefHat className="w-5 h-5 mr-2 text-blue-600" />
+                        Sala de Jantar
+                      </h4>
+                      <div className="space-y-2 text-sm">
+                        <div className="flex justify-between">
+                          <span className="text-sage-green-700 font-medium">Mesa 4 Lugares:</span>
+                        </div>
+                        <div className="ml-4 space-y-1 text-sage-green-600">
+                          <div>• Comprimento máximo: <span className="font-semibold">1,40m</span></div>
+                          <div>• Profundidade máxima: <span className="font-semibold">0,90m</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mt-4 bg-amber-50 border-l-4 border-amber-500 p-4">
+                    <p className="text-amber-700 text-sm">
+                      <strong>💡 Importante:</strong> Estas medidas foram calculadas considerando o espaço disponível 
+                      e a circulação adequada nos ambientes do Residencial Magnólia.
+                    </p>
                   </div>
                 </div>
                 
