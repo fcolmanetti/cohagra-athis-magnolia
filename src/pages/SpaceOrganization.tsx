@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Layout, Sofa, ChefHat, Bed, Bath, Shirt, Lightbulb } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -494,7 +493,7 @@ const SpaceOrganization = () => {
                   <div className="bg-indigo-100 p-3 rounded-full mr-4">
                     <Shirt className="w-6 h-6 text-indigo-600" />
                   </div>
-                  <h2 className="text-2xl font-bold text-warm-brown-800">Lavanderia/Varanda</h2>
+                  <h2 className="text-2xl font-bold text-warm-brown-800">Lavanderia</h2>
                 </div>
                 
                 {/* Imagem da lavanderia */}
