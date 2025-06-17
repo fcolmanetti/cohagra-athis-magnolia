@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Layout, Sofa, ChefHat, Bed, Bath, Shirt, Lightbulb } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -198,6 +197,46 @@ const SpaceOrganization = () => {
                     <p className="text-orange-700 text-sm">Layout da cozinha com móveis planejados e organização vertical</p>
                   </div>
                 </div>
+
+                {/* Medidas Adequadas dos Móveis - Cozinha */}
+                <div className="bg-blue-50 rounded-lg p-6 mb-8">
+                  <h3 className="text-lg font-semibold text-blue-800 mb-4">📏 Medidas Adequadas dos Eletrodomésticos</h3>
+                  
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="bg-white p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
+                        <span className="text-xl mr-2">🔥</span>
+                        Fogão
+                      </h4>
+                      <div className="space-y-2 text-sm">
+                        <div className="ml-4 space-y-1 text-sage-green-600">
+                          <div>• Largura máxima: <span className="font-semibold">0,55m</span></div>
+                          <div>• Profundidade máxima: <span className="font-semibold">0,65m</span></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
+                        <span className="text-xl mr-2">❄️</span>
+                        Geladeira
+                      </h4>
+                      <div className="space-y-2 text-sm">
+                        <div className="ml-4 space-y-1 text-sage-green-600">
+                          <div>• Largura máxima: <span className="font-semibold">0,71m</span></div>
+                          <div>• Profundidade máxima: <span className="font-semibold">0,68m</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mt-4 bg-amber-50 border-l-4 border-amber-500 p-4">
+                    <p className="text-amber-700 text-sm">
+                      <strong>💡 Importante:</strong> Estas medidas foram calculadas considerando o espaço disponível 
+                      e a circulação adequada na cozinha do Residencial Magnólia.
+                    </p>
+                  </div>
+                </div>
                 
                 <div className="grid md:grid-cols-2 gap-8 mb-6">
                   <div>
@@ -271,6 +310,66 @@ const SpaceOrganization = () => {
                     <Bed className="w-6 h-6 text-blue-600" />
                   </div>
                   <h2 className="text-2xl font-bold text-warm-brown-800">Quartos</h2>
+                </div>
+                
+                {/* Medidas Adequadas dos Móveis - Quartos */}
+                <div className="bg-blue-50 rounded-lg p-6 mb-8">
+                  <h3 className="text-lg font-semibold text-blue-800 mb-4">📏 Medidas Adequadas dos Móveis</h3>
+                  
+                  <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div className="bg-white p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
+                        <Bed className="w-5 h-5 mr-2 text-blue-600" />
+                        Opções de Cama
+                      </h4>
+                      <div className="space-y-3 text-sm">
+                        <div>
+                          <span className="text-sage-green-700 font-medium">Opção 1 - Queen Size:</span>
+                          <div className="ml-4 space-y-1 text-sage-green-600">
+                            <div>• Comprimento: <span className="font-semibold">1,98m</span></div>
+                            <div>• Largura: <span className="font-semibold">1,58m</span></div>
+                          </div>
+                        </div>
+                        <div className="mt-3">
+                          <span className="text-sage-green-700 font-medium">Opção 2 - Beliches:</span>
+                          <div className="ml-4 space-y-1 text-sage-green-600">
+                            <div>• Beliche: 1,98m x 0,95m</div>
+                            <div>• Cama solteiro: 1,88m x 0,88m</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
+                        <span className="text-xl mr-2">👕</span>
+                        Móveis de Apoio
+                      </h4>
+                      <div className="space-y-3 text-sm">
+                        <div>
+                          <span className="text-sage-green-700 font-medium">Guarda-Roupas:</span>
+                          <div className="ml-4 space-y-1 text-sage-green-600">
+                            <div>• Comprimento máximo: <span className="font-semibold">1,40m</span></div>
+                            <div>• Profundidade máxima: <span className="font-semibold">0,60m</span></div>
+                            <div>• Altura máxima: <span className="font-semibold">2,60m</span></div>
+                          </div>
+                        </div>
+                        <div className="mt-3">
+                          <span className="text-sage-green-700 font-medium">Mesa de Cabeceira:</span>
+                          <div className="ml-4 text-sage-green-600">
+                            <div>• Largura máxima: <span className="font-semibold">0,50m</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-amber-50 border-l-4 border-amber-500 p-4">
+                    <p className="text-amber-700 text-sm">
+                      <strong>💡 Importante:</strong> Estas medidas foram calculadas considerando o espaço disponível 
+                      e a circulação adequada nos quartos do Residencial Magnólia.
+                    </p>
+                  </div>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-8 mb-6">
@@ -406,6 +505,32 @@ const SpaceOrganization = () => {
                   />
                   <div className="bg-indigo-50 p-3 text-center">
                     <p className="text-indigo-700 text-sm">Área de serviço com lavadora e organização eficiente</p>
+                  </div>
+                </div>
+
+                {/* Medidas Adequadas dos Móveis - Lavanderia */}
+                <div className="bg-blue-50 rounded-lg p-6 mb-8">
+                  <h3 className="text-lg font-semibold text-blue-800 mb-4">📏 Medidas Adequadas dos Móveis</h3>
+                  
+                  <div className="bg-white p-4 rounded-lg border border-blue-200 mb-6">
+                    <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
+                      <Shirt className="w-5 h-5 mr-2 text-blue-600" />
+                      Armário Alto
+                    </h4>
+                    <div className="space-y-2 text-sm">
+                      <div className="ml-4 space-y-1 text-sage-green-600">
+                        <div>• Comprimento máximo: <span className="font-semibold">2,40m</span></div>
+                        <div>• Profundidade máxima: <span className="font-semibold">0,35m</span></div>
+                        <div>• Altura máxima: <span className="font-semibold">2,60m</span></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-amber-50 border-l-4 border-amber-500 p-4">
+                    <p className="text-amber-700 text-sm">
+                      <strong>💡 Importante:</strong> Estas medidas foram calculadas considerando o espaço disponível 
+                      e a circulação adequada na lavanderia do Residencial Magnólia.
+                    </p>
                   </div>
                 </div>
                 
