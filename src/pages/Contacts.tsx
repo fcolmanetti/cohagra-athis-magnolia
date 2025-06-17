@@ -33,7 +33,7 @@ const Contacts = () => {
               <div className="bg-blue-100 p-3 rounded-full mr-4">
                 <Building2 className="w-6 h-6 text-blue-600" />
               </div>
-              <h2 className="text-2xl font-bold text-warm-brown-800">COHAGRA - Companhia de Habitação</h2>
+              <h2 className="text-2xl font-bold text-warm-brown-800">COHAGRA - Companhia de Habitação do Vale do Rio Grande</h2>
             </div>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -42,7 +42,7 @@ const Contacts = () => {
                   <Phone className="w-5 h-5 text-blue-600 mr-3" />
                   <div>
                     <p className="font-semibold text-warm-brown-800">Telefone Principal</p>
-                    <p className="text-sage-green-700">(67) 3318-1500</p>
+                    <p className="text-sage-green-700">(34) 3326-3100</p>
                   </div>
                 </div>
                 
@@ -50,7 +50,7 @@ const Contacts = () => {
                   <Mail className="w-5 h-5 text-blue-600 mr-3" />
                   <div>
                     <p className="font-semibold text-warm-brown-800">E-mail</p>
-                    <p className="text-sage-green-700">atendimento@cohagra.ms.gov.br</p>
+                    <p className="text-sage-green-700">contato@cohagra.mg.gov.br</p>
                   </div>
                 </div>
                 
@@ -59,9 +59,8 @@ const Contacts = () => {
                   <div>
                     <p className="font-semibold text-warm-brown-800">Endereço</p>
                     <p className="text-sage-green-700">
-                      Rua Cândido Mariano, 2000<br />
-                      Centro, Campo Grande - MS<br />
-                      CEP: 79020-300
+                      Av. das Acácias, 43 - Vila Olimpica<br />
+                      Uberaba - MG
                     </p>
                   </div>
                 </div>
@@ -138,41 +137,35 @@ const Contacts = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div className="border-l-4 border-blue-500 pl-4">
-                  <h4 className="font-semibold text-warm-brown-800">Energisa (Energia Elétrica)</h4>
-                  <p className="text-sage-green-700">📞 0800 720 0116</p>
+                  <h4 className="font-semibold text-warm-brown-800">CEMIG (Energia Elétrica)</h4>
+                  <p className="text-sage-green-700">📞 116</p>
                   <p className="text-sm text-sage-green-600">Emergências: 116</p>
                 </div>
                 
                 <div className="border-l-4 border-cyan-500 pl-4">
-                  <h4 className="font-semibold text-warm-brown-800">Águas Guariroba (Água e Esgoto)</h4>
-                  <p className="text-sage-green-700">📞 0800 642 0115</p>
-                  <p className="text-sm text-sage-green-600">WhatsApp: (67) 3312-6700</p>
+                  <h4 className="font-semibold text-warm-brown-800">CODAU (Água, Esgoto e Limpeza Urbana)</h4>
+                  <p className="text-sage-green-700">📞 (34) 3318-5200</p>
+                  <p className="text-sm text-sage-green-600">Uberaba - MG</p>
                 </div>
                 
-                <div className="border-l-4 border-orange-500 pl-4">
-                  <h4 className="font-semibold text-warm-brown-800">Solurb (Limpeza Urbana)</h4>
-                  <p className="text-sage-green-700">📞 (67) 3314-3700</p>
-                  <p className="text-sm text-sage-green-600">Coleta seletiva e entulho</p>
+                <div className="border-l-4 border-purple-500 pl-4">
+                  <h4 className="font-semibold text-warm-brown-800">Defesa Civil - Uberaba</h4>
+                  <p className="text-sage-green-700">📞 199</p>
+                  <p className="text-sm text-sage-green-600">(34) 3318-1199</p>
                 </div>
               </div>
               
               <div className="space-y-4">
-                <div className="border-l-4 border-purple-500 pl-4">
-                  <h4 className="font-semibold text-warm-brown-800">Defesa Civil</h4>
-                  <p className="text-sage-green-700">📞 199</p>
-                  <p className="text-sm text-sage-green-600">(67) 3314-3000</p>
-                </div>
-                
                 <div className="border-l-4 border-green-500 pl-4">
-                  <h4 className="font-semibold text-warm-brown-800">Procon Municipal</h4>
-                  <p className="text-sage-green-700">📞 (67) 3314-3000</p>
-                  <p className="text-sm text-sage-green-600">Ramal 1178</p>
+                  <h4 className="font-semibold text-warm-brown-800">Procon Municipal - Uberaba</h4>
+                  <p className="text-sage-green-700">📞 (34) 3318-1600</p>
+                  <p className="text-sm text-sage-green-600">Uberaba - MG</p>
                 </div>
                 
                 <div className="border-l-4 border-indigo-500 pl-4">
-                  <h4 className="font-semibold text-warm-brown-800">Ouvidoria Municipal</h4>
-                  <p className="text-sage-green-700">📞 (67) 3314-3000</p>
-                  <p className="text-sm text-sage-green-600">Ramal 1100</p>
+                  <h4 className="font-semibold text-warm-brown-800">Ouvidoria Municipal - Uberaba</h4>
+                  <p className="text-sage-green-700">📞 (34) 3318-1000</p>
+                  <p className="text-sm text-sage-green-600">Uberaba - MG</p>
                 </div>
               </div>
             </div>
@@ -209,30 +202,30 @@ const Contacts = () => {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-3">
-                <a href="https://www.cohagra.ms.gov.br" target="_blank" rel="noopener noreferrer" 
+                <a href="https://www.cohagra.mg.gov.br" target="_blank" rel="noopener noreferrer" 
                    className="flex items-center p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                   <ExternalLink className="w-4 h-4 text-blue-600 mr-3" />
                   <span className="text-blue-700 font-medium">Site da COHAGRA</span>
                 </a>
                 
-                <a href="https://www.energisa.com.br" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.cemig.com.br" target="_blank" rel="noopener noreferrer"
                    className="flex items-center p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                   <ExternalLink className="w-4 h-4 text-blue-600 mr-3" />
-                  <span className="text-blue-700 font-medium">Energisa - 2ª Via</span>
+                  <span className="text-blue-700 font-medium">CEMIG - 2ª Via</span>
                 </a>
               </div>
               
               <div className="space-y-3">
-                <a href="https://www.aguasguariroba.com.br" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.codau.com.br" target="_blank" rel="noopener noreferrer"
                    className="flex items-center p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                   <ExternalLink className="w-4 h-4 text-blue-600 mr-3" />
-                  <span className="text-blue-700 font-medium">Águas Guariroba - 2ª Via</span>
+                  <span className="text-blue-700 font-medium">CODAU - 2ª Via</span>
                 </a>
                 
-                <a href="https://www.campogrande.ms.gov.br" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.uberaba.mg.gov.br" target="_blank" rel="noopener noreferrer"
                    className="flex items-center p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                   <ExternalLink className="w-4 h-4 text-blue-600 mr-3" />
-                  <span className="text-blue-700 font-medium">Prefeitura Municipal</span>
+                  <span className="text-blue-700 font-medium">Prefeitura de Uberaba</span>
                 </a>
               </div>
             </div>
