@@ -1,5 +1,5 @@
 
-import { ArrowLeft, Users, Clock, VolumeX, Heart, Shield } from "lucide-react";
+import { ArrowLeft, Users, Clock, VolumeX, Heart, Shield, FileText } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
@@ -34,6 +34,113 @@ const Condominium = () => {
               alt="Edifício residencial" 
               className="w-full h-64 md:h-80 object-cover"
             />
+          </div>
+
+          {/* Formalização do Condomínio */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <div className="flex items-center mb-6">
+              <div className="bg-blue-100 p-3 rounded-full mr-4">
+                <FileText className="w-6 h-6 text-blue-600" />
+              </div>
+              <h2 className="text-2xl font-bold text-warm-brown-800">Formalização do Condomínio</h2>
+            </div>
+            
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6">
+              <h3 className="text-lg font-semibold text-blue-800 mb-2">📋 Importância da Formalização</h3>
+              <p className="text-blue-700">
+                Para que o condomínio funcione de forma organizada e legal, é necessário seguir alguns passos 
+                importantes para sua formalização perante os órgãos competentes.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <div className="flex items-start">
+                <div className="bg-green-100 text-green-600 rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">1</div>
+                <div className="flex-1">
+                  <h4 className="font-semibold text-warm-brown-800 mb-2">🤝 Reunir os Interessados</h4>
+                  <p className="text-sage-green-700 mb-3">
+                    Organize uma reunião com todos os moradores para discutir a necessidade de formalizar o condomínio.
+                  </p>
+                  <ul className="space-y-1 text-sage-green-700 text-sm">
+                    <li>• Convoque todos os proprietários dos apartamentos</li>
+                    <li>• Explique os benefícios da formalização</li>
+                    <li>• Discuta as responsabilidades de cada morador</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="bg-green-100 text-green-600 rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">2</div>
+                <div className="flex-1">
+                  <h4 className="font-semibold text-warm-brown-800 mb-2">📄 Elaborar e Aprovar o Estatuto</h4>
+                  <p className="text-sage-green-700 mb-3">
+                    O estatuto é o documento que estabelece as regras de funcionamento do condomínio.
+                  </p>
+                  <ul className="space-y-1 text-sage-green-700 text-sm">
+                    <li>• Defina as normas de convivência</li>
+                    <li>• Estabeleça direitos e deveres dos moradores</li>
+                    <li>• Determine as competências da administração</li>
+                    <li>• Aprove por maioria dos presentes</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="bg-green-100 text-green-600 rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">3</div>
+                <div className="flex-1">
+                  <h4 className="font-semibold text-warm-brown-800 mb-2">🏛️ Realizar a Assembleia de Fundação</h4>
+                  <p className="text-sage-green-700 mb-3">
+                    Assembleia formal para constituir oficialmente o condomínio.
+                  </p>
+                  <ul className="space-y-1 text-sage-green-700 text-sm">
+                    <li>• Elabore ata da assembleia</li>
+                    <li>• Eleja o primeiro síndico</li>
+                    <li>• Aprove o regimento interno</li>
+                    <li>• Registre todas as decisões tomadas</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="bg-green-100 text-green-600 rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">4</div>
+                <div className="flex-1">
+                  <h4 className="font-semibold text-warm-brown-800 mb-2">🏢 Registrar a Associação em Cartório</h4>
+                  <p className="text-sage-green-700 mb-3">
+                    Leve a documentação ao Cartório de Registro Civil de Pessoas Jurídicas.
+                  </p>
+                  <ul className="space-y-1 text-sage-green-700 text-sm">
+                    <li>• Ata da assembleia de fundação</li>
+                    <li>• Estatuto aprovado</li>
+                    <li>• Lista de moradores</li>
+                    <li>• Documentos pessoais do síndico</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="bg-green-100 text-green-600 rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">5</div>
+                <div className="flex-1">
+                  <h4 className="font-semibold text-warm-brown-800 mb-2">🏦 Obter o CNPJ junto à Receita Federal</h4>
+                  <p className="text-sage-green-700 mb-3">
+                    Com o registro do cartório, solicite o CNPJ do condomínio.
+                  </p>
+                  <ul className="space-y-1 text-sage-green-700 text-sm">
+                    <li>• Acesse o site da Receita Federal</li>
+                    <li>• Preencha o formulário online</li>
+                    <li>• Anexe os documentos necessários</li>
+                    <li>• Aguarde a aprovação e emissão do CNPJ</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mt-6">
+              <h4 className="font-semibold text-yellow-800 mb-2">💡 Dica Importante:</h4>
+              <p className="text-yellow-700">
+                Considere contratar um advogado especializado em direito condominial para auxiliar 
+                no processo de formalização e garantir que todos os procedimentos sejam realizados corretamente.
+              </p>
+            </div>
           </div>
 
           {/* Horários de Silêncio */}
