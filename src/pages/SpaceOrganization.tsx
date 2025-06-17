@@ -1,3 +1,4 @@
+
 import { ArrowLeft, Layout, Sofa, ChefHat, Bed, Bath, Shirt, Lightbulb } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -331,7 +332,7 @@ const SpaceOrganization = () => {
                           </div>
                         </div>
                         <div className="mt-3">
-                          <span className="text-sage-green-700 font-medium">Opção 2 - Beliches:</span>
+                          <span className="text-sage-green-700 font-medium">Opção 2 - Cama Solteiro e Beliche:</span>
                           <div className="ml-4 space-y-1 text-sage-green-600">
                             <div>• Beliche: 1,98m x 0,95m</div>
                             <div>• Cama solteiro: 1,88m x 0,88m</div>
