@@ -349,20 +349,51 @@ const SpaceOrganization = () => {
                   <h2 className="text-2xl font-bold text-warm-brown-800">Quartos</h2>
                 </div>
                 
-                {/* Imagem do quarto */}
-                <div className="mb-8 rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/e9ed53e7-522f-460f-a69c-b6e33983665b.png" 
-                    alt="Quarto do Residencial Magnólia" 
-                    className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
-                    onClick={() => openImageModal(
-                      "/lovable-uploads/e9ed53e7-522f-460f-a69c-b6e33983665b.png", 
-                      "Quarto do Residencial Magnólia",
-                      "Exemplo de quarto decorado com móveis compactos e funcionais"
-                    )}
-                  />
-                  <div className="bg-blue-50 p-3 text-center">
-                    <p className="text-blue-700 text-sm">Exemplo de quarto decorado com móveis compactos e funcionais</p>
+                {/* Opção 1 - Quarto Casal */}
+                <div className="mb-12">
+                  <h3 className="text-xl font-semibold text-warm-brown-800 mb-4 flex items-center">
+                    <span className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">1</span>
+                    Opção 1 - Quarto Casal
+                  </h3>
+                  
+                  <div className="mb-8 rounded-lg overflow-hidden">
+                    <img 
+                      src="/lovable-uploads/e9ed53e7-522f-460f-a69c-b6e33983665b.png" 
+                      alt="Quarto casal do Residencial Magnólia - Opção 1" 
+                      className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                      onClick={() => openImageModal(
+                        "/lovable-uploads/e9ed53e7-522f-460f-a69c-b6e33983665b.png", 
+                        "Quarto casal do Residencial Magnólia - Opção 1",
+                        "Quarto casal com cama queen size e decoração moderna"
+                      )}
+                    />
+                    <div className="bg-blue-50 p-3 text-center">
+                      <p className="text-blue-700 text-sm">Quarto casal com cama queen size e decoração moderna</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Opção 2 - Quarto com Beliche */}
+                <div className="mb-12">
+                  <h3 className="text-xl font-semibold text-warm-brown-800 mb-4 flex items-center">
+                    <span className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">2</span>
+                    Opção 2 - Quarto com Beliche
+                  </h3>
+                  
+                  <div className="mb-8 rounded-lg overflow-hidden">
+                    <img 
+                      src="/lovable-uploads/a95f743f-5dec-4ec9-9909-030001d0ca4d.png" 
+                      alt="Quarto com beliche do Residencial Magnólia - Opção 2" 
+                      className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                      onClick={() => openImageModal(
+                        "/lovable-uploads/a95f743f-5dec-4ec9-9909-030001d0ca4d.png", 
+                        "Quarto com beliche do Residencial Magnólia - Opção 2",
+                        "Quarto com beliche e decoração colorida para crianças"
+                      )}
+                    />
+                    <div className="bg-green-50 p-3 text-center">
+                      <p className="text-green-700 text-sm">Quarto com beliche e decoração colorida para crianças</p>
+                    </div>
                   </div>
                 </div>
 
