@@ -312,6 +312,18 @@ const SpaceOrganization = () => {
                   <h2 className="text-2xl font-bold text-warm-brown-800">Quartos</h2>
                 </div>
                 
+                {/* Imagem do quarto */}
+                <div className="mb-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/e9ed53e7-522f-460f-a69c-b6e33983665b.png" 
+                    alt="Quarto do Residencial Magnólia" 
+                    className="w-full h-48 md:h-64 object-cover"
+                  />
+                  <div className="bg-blue-50 p-3 text-center">
+                    <p className="text-blue-700 text-sm">Exemplo de quarto decorado com móveis compactos e funcionais</p>
+                  </div>
+                </div>
+
                 {/* Medidas Adequadas dos Móveis - Quartos */}
                 <div className="bg-blue-50 rounded-lg p-6 mb-8">
                   <h3 className="text-lg font-semibold text-blue-800 mb-4">📏 Medidas Adequadas dos Móveis</h3>
