@@ -601,16 +601,31 @@ const SpaceOrganization = () => {
                 <div className="bg-blue-50 rounded-lg p-6 mb-8">
                   <h3 className="text-lg font-semibold text-blue-800 mb-4">📏 Medidas Adequadas dos Móveis</h3>
                   
-                  <div className="bg-white p-4 rounded-lg border border-blue-200 mb-6">
-                    <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
-                      <Shirt className="w-5 h-5 mr-2 text-blue-600" />
-                      Armário Alto
-                    </h4>
-                    <div className="space-y-2 text-sm">
-                      <div className="ml-4 space-y-1 text-sage-green-600">
-                        <div>• Comprimento máximo: <span className="font-semibold">2,40m</span></div>
-                        <div>• Profundidade máxima: <span className="font-semibold">0,35m</span></div>
-                        <div>• Altura máxima: <span className="font-semibold">2,60m</span></div>
+                  <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div className="bg-white p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
+                        <Shirt className="w-5 h-5 mr-2 text-blue-600" />
+                        Armário Alto
+                      </h4>
+                      <div className="space-y-2 text-sm">
+                        <div className="ml-4 space-y-1 text-sage-green-600">
+                          <div>• Comprimento máximo: <span className="font-semibold">2,40m</span></div>
+                          <div>• Profundidade máxima: <span className="font-semibold">0,35m</span></div>
+                          <div>• Altura máxima: <span className="font-semibold">2,60m</span></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white p-4 rounded-lg border border-blue-200">
+                      <h4 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
+                        <span className="text-xl mr-2">🌀</span>
+                        Máquina de Lavar
+                      </h4>
+                      <div className="space-y-2 text-sm">
+                        <div className="ml-4 space-y-1 text-sage-green-600">
+                          <div>• Largura máxima: <span className="font-semibold">0,65m</span></div>
+                          <div>• Profundidade máxima: <span className="font-semibold">0,792m</span></div>
+                        </div>
                       </div>
                     </div>
                   </div>
