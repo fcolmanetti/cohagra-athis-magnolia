@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Layout, Sofa, ChefHat, Bed, Bath, Shirt, Lightbulb } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -349,11 +348,11 @@ const SpaceOrganization = () => {
                   <h2 className="text-2xl font-bold text-warm-brown-800">Quartos</h2>
                 </div>
                 
-                {/* Opção 1 - Quarto Casal */}
+                {/* Quarto do Casal */}
                 <div className="mb-12">
                   <h3 className="text-xl font-semibold text-warm-brown-800 mb-4 flex items-center">
                     <span className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">1</span>
-                    Opção 1 - Quarto Casal
+                    Quarto do Casal
                   </h3>
                   
                   <div className="mb-8 rounded-lg overflow-hidden">
@@ -373,11 +372,11 @@ const SpaceOrganization = () => {
                   </div>
                 </div>
 
-                {/* Opção 2 - Quarto com Beliche */}
+                {/* Quarto dos Filhos */}
                 <div className="mb-12">
                   <h3 className="text-xl font-semibold text-warm-brown-800 mb-4 flex items-center">
                     <span className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">2</span>
-                    Opção 2 - Quarto com Beliche
+                    Quarto dos Filhos
                   </h3>
                   
                   <div className="mb-8 rounded-lg overflow-hidden">
