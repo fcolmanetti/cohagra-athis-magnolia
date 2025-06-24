@@ -1,9 +1,26 @@
+
 import { ArrowLeft, Layout, Sofa, ChefHat, Bed, Bath, Shirt, Lightbulb } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import Header from "../components/Header";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ImageModal } from "../components/ImageModal";
 
 const SpaceOrganization = () => {
+  const [selectedImage, setSelectedImage] = useState<{
+    src: string;
+    alt: string;
+    caption?: string;
+  } | null>(null);
+
+  const openImageModal = (src: string, alt: string, caption?: string) => {
+    setSelectedImage({ src, alt, caption });
+  };
+
+  const closeImageModal = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -32,7 +49,12 @@ const SpaceOrganization = () => {
             <img 
               src="/lovable-uploads/2739f78f-ac39-496c-a1f8-ae27fb6c4c36.png" 
               alt="Planta baixa detalhada do apartamento do Residencial Magnólia" 
-              className="w-full h-96 md:h-[500px] object-contain bg-white"
+              className="w-full h-96 md:h-[500px] object-contain bg-white cursor-pointer hover:opacity-90 transition-opacity"
+              onClick={() => openImageModal(
+                "/lovable-uploads/2739f78f-ac39-496c-a1f8-ae27fb6c4c36.png", 
+                "Planta baixa detalhada do apartamento do Residencial Magnólia",
+                "Planta baixa do apartamento com dimensões dos ambientes"
+              )}
             />
             <div className="bg-white p-4 text-center">
               <p className="text-sage-green-700 font-medium">Planta baixa do apartamento com dimensões dos ambientes</p>
@@ -44,7 +66,12 @@ const SpaceOrganization = () => {
             <img 
               src="/lovable-uploads/9f33b359-88b0-4d6c-ae10-715c5d0afcea.png" 
               alt="Sala integrada do Residencial Magnólia" 
-              className="w-full h-64 md:h-80 object-cover"
+              className="w-full h-64 md:h-80 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+              onClick={() => openImageModal(
+                "/lovable-uploads/9f33b359-88b0-4d6c-ae10-715c5d0afcea.png", 
+                "Sala integrada do Residencial Magnólia",
+                "Apartamento do Residencial Magnólia - Layout integrado otimizado"
+              )}
             />
             <div className="bg-white p-4 text-center">
               <p className="text-sage-green-700 font-medium">Apartamento do Residencial Magnólia - Layout integrado otimizado</p>
@@ -75,7 +102,12 @@ const SpaceOrganization = () => {
                   <img 
                     src="/lovable-uploads/c0397237-44b4-47d9-9a9c-0c07160210c4.png" 
                     alt="Sala de estar do Residencial Magnólia" 
-                    className="w-full h-48 md:h-64 object-cover"
+                    className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                    onClick={() => openImageModal(
+                      "/lovable-uploads/c0397237-44b4-47d9-9a9c-0c07160210c4.png", 
+                      "Sala de estar do Residencial Magnólia",
+                      "Exemplo de organização da sala com móveis compactos e funcionais"
+                    )}
                   />
                   <div className="bg-warm-brown-50 p-3 text-center">
                     <p className="text-warm-brown-700 text-sm">Exemplo de organização da sala com móveis compactos e funcionais</p>
@@ -191,7 +223,12 @@ const SpaceOrganization = () => {
                   <img 
                     src="/lovable-uploads/32edfc5d-a0fb-4f08-a9fc-2cd9f12a8a9e.png" 
                     alt="Cozinha do Residencial Magnólia" 
-                    className="w-full h-48 md:h-64 object-cover"
+                    className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                    onClick={() => openImageModal(
+                      "/lovable-uploads/32edfc5d-a0fb-4f08-a9fc-2cd9f12a8a9e.png", 
+                      "Cozinha do Residencial Magnólia",
+                      "Layout da cozinha com móveis planejados e organização vertical"
+                    )}
                   />
                   <div className="bg-orange-50 p-3 text-center">
                     <p className="text-orange-700 text-sm">Layout da cozinha com móveis planejados e organização vertical</p>
@@ -317,7 +354,12 @@ const SpaceOrganization = () => {
                   <img 
                     src="/lovable-uploads/e9ed53e7-522f-460f-a69c-b6e33983665b.png" 
                     alt="Quarto do Residencial Magnólia" 
-                    className="w-full h-48 md:h-64 object-cover"
+                    className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                    onClick={() => openImageModal(
+                      "/lovable-uploads/e9ed53e7-522f-460f-a69c-b6e33983665b.png", 
+                      "Quarto do Residencial Magnólia",
+                      "Exemplo de quarto decorado com móveis compactos e funcionais"
+                    )}
                   />
                   <div className="bg-blue-50 p-3 text-center">
                     <p className="text-blue-700 text-sm">Exemplo de quarto decorado com móveis compactos e funcionais</p>
@@ -513,7 +555,12 @@ const SpaceOrganization = () => {
                   <img 
                     src="/lovable-uploads/2c282db3-dc17-49e8-a3e5-cbeb2469b6db.png" 
                     alt="Área da lavanderia do Residencial Magnólia" 
-                    className="w-full h-48 md:h-64 object-cover"
+                    className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                    onClick={() => openImageModal(
+                      "/lovable-uploads/2c282db3-dc17-49e8-a3e5-cbeb2469b6db.png", 
+                      "Área da lavanderia do Residencial Magnólia",
+                      "Área de serviço com lavadora e organização eficiente"
+                    )}
                   />
                   <div className="bg-indigo-50 p-3 text-center">
                     <p className="text-indigo-700 text-sm">Área de serviço com lavadora e organização eficiente</p>
@@ -631,6 +678,16 @@ const SpaceOrganization = () => {
           </div>
         </div>
       </main>
+
+      {selectedImage && (
+        <ImageModal
+          isOpen={!!selectedImage}
+          onClose={closeImageModal}
+          imageSrc={selectedImage.src}
+          imageAlt={selectedImage.alt}
+          imageCaption={selectedImage.caption}
+        />
+      )}
     </div>
   );
 };
