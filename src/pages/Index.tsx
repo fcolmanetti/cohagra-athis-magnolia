@@ -1,4 +1,3 @@
-
 import { 
   Home, 
   Layout, 
@@ -20,14 +19,14 @@ const Index = () => {
   const sections = [
     {
       title: "Conhecendo seu Apartamento",
-      description: "Entenda a tecnologia de parede de concreto e as características únicas da sua nova moradia.",
+      description: "Entenda a arquitetura e as características únicas da sua nova moradia",
       icon: Home,
       to: "/apartamento",
       color: "brown" as const
     },
     {
       title: "Organização dos Espaços",
-      description: "Dicas práticas para organizar sala, cozinha, quartos, banheiro e lavanderia com móveis adequados.",
+      description: "Dicas para organizar sala, cozinha, quartos, banheiro e lavanderia, com foco na melhor disposição dos móveis para otimizar o espaço e a funcionalidade de cada ambiente",
       icon: Layout,
       to: "/espacos",
       color: "green" as const
