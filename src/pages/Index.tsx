@@ -27,14 +27,14 @@ const Index = () => {
     },
     {
       title: "Organização dos Espaços",
-      description: "Dicas práticas para organizar sala, cozinha, quartos, banheiro e lavanderia de forma eficiente.",
+      description: "Dicas práticas para organizar sala, cozinha, quartos, banheiro e lavanderia com móveis adequados.",
       icon: Layout,
       to: "/espacos",
       color: "green" as const
     },
     {
-      title: "Móveis e Decoração",
-      description: "Escolha os móveis adequados e decore seu lar com segurança e estilo.",
+      title: "Decoração e Interiores",
+      description: "Transforme seu lar em um ambiente acolhedor, bonito e cheio de personalidade.",
       icon: Palette,
       to: "/decoracao",
       color: "blue" as const

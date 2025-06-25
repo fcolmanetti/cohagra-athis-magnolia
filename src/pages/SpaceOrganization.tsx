@@ -35,7 +35,7 @@ const SpaceOrganization = () => {
             <h1 className="text-3xl md:text-4xl font-bold">Organização dos Espaços</h1>
           </div>
           <p className="text-xl text-white/90">
-            Dicas práticas para organizar cada ambiente do seu apartamento
+            Dicas práticas para organizar cada ambiente do seu apartamento com móveis adequados
           </p>
         </div>
       </div>
@@ -74,6 +74,92 @@ const SpaceOrganization = () => {
             />
             <div className="bg-white p-4 text-center">
               <p className="text-sage-green-700 font-medium">Apartamento do Residencial Magnólia - Layout integrado otimizado</p>
+            </div>
+          </div>
+
+          {/* Móveis Adequados Section */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <div className="flex items-center mb-6">
+              <div className="bg-blue-100 p-3 rounded-full mr-4">
+                <Sofa className="w-6 h-6 text-blue-600" />
+              </div>
+              <h2 className="text-2xl font-bold text-warm-brown-800">Móveis Adequados</h2>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-lg font-semibold text-warm-brown-800 mb-4">✅ Móveis Recomendados:</h3>
+                <ul className="space-y-3 text-sage-green-700">
+                  <li className="flex items-start">
+                    <span className="text-blue-500 mr-2">•</span>
+                    <span>Móveis planejados leves e funcionais</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-500 mr-2">•</span>
+                    <span>Peças modulares que se adaptam ao espaço</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-500 mr-2">•</span>
+                    <span>Móveis com pés para facilitar limpeza</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-500 mr-2">•</span>
+                    <span>Peças multifuncionais (mesa que vira estante)</span>
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="bg-red-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-red-800 mb-3">❌ Evite:</h4>
+                <ul className="space-y-2 text-red-700">
+                  <li>• Armários muito pesados fixados na parede</li>
+                  <li>• Móveis que exigem muitos furos</li>
+                  <li>• Peças que sobrecarregam as paredes</li>
+                  <li>• Móveis sem proteção em áreas úmidas</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-amber-50 border-l-4 border-amber-500 p-6">
+              <h4 className="font-semibold text-amber-800 mb-2">💡 Dica Importante:</h4>
+              <p className="text-amber-700">
+                Use silicone ou borrachas de vedação em móveis próximos de áreas úmidas 
+                (banheiro, cozinha, lavanderia) para proteger contra a umidade.
+              </p>
+            </div>
+          </div>
+
+          {/* Fixação Segura Section */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <div className="flex items-center mb-6">
+              <div className="bg-red-100 p-3 rounded-full mr-4">
+                <span className="text-red-600 text-xl">🔧</span>
+              </div>
+              <h2 className="text-2xl font-bold text-warm-brown-800">Fixação Segura</h2>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-green-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-green-800 mb-3">✅ Métodos Seguros:</h4>
+                <ul className="space-y-2 text-green-700">
+                  <li>• Buchas plásticas de expansão</li>
+                  <li>• Suportes adesivos de qualidade</li>
+                  <li>• Prateleiras de pressão</li>
+                  <li>• Móveis apoiados no chão</li>
+                  <li>• Ganchos adesivos removíveis</li>
+                </ul>
+              </div>
+
+              <div className="bg-red-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-red-800 mb-3">❌ Nunca Use:</h4>
+                <ul className="space-y-2 text-red-700">
+                  <li>• Pregos diretamente na parede</li>
+                  <li>• Parafusos muito longos</li>
+                  <li>• Furadeira sem orientação técnica</li>
+                  <li>• Buchas inadequadas para concreto</li>
+                  <li>• Fixação em áreas estruturais</li>
+                </ul>
+              </div>
             </div>
           </div>
 
@@ -717,7 +803,7 @@ const SpaceOrganization = () => {
               to="/decoracao" 
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-sage-green-500 to-blue-600 text-white rounded-lg hover:from-sage-green-600 hover:to-blue-700 transition-all duration-300 text-lg font-semibold"
             >
-              Próximo: Móveis e Decoração
+              Próximo: Decoração e Interiores
               <ArrowLeft className="w-5 h-5 ml-2 rotate-180" />
             </Link>
           </div>
