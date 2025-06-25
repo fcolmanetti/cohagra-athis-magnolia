@@ -26,7 +26,7 @@ const Index = () => {
     },
     {
       title: "Organização dos Espaços",
-      description: "Dicas para organizar sala, cozinha, quartos, banheiro e lavanderia, com foco na melhor disposição dos móveis para otimizar o espaço e a funcionalidade de cada ambiente",
+      description: "Saiba como organizar melhor os espaços com foco na melhor disposição dos móveis para otimizar o espaço e a funcionalidade de cada ambiente",
       icon: Layout,
       to: "/espacos",
       color: "green" as const
