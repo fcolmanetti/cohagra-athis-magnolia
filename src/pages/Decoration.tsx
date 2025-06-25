@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Palette, Home, Lightbulb, Camera, Heart, Sparkles, Sun } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -88,6 +87,85 @@ const Decoration = () => {
                     <div className="w-4 h-4 bg-teal-200 rounded"></div>
                     <span className="text-sm text-green-700">Cinza + Laranja + Azul</span>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Paletas por Estilo */}
+            <div className="mb-8">
+              <h4 className="font-semibold text-warm-brown-800 mb-6 text-center">🎨 Paletas de Cores por Estilo de Decoração:</h4>
+              
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {/* Minimalista */}
+                <div className="p-5 border-2 border-gray-200 rounded-lg bg-gray-50">
+                  <h5 className="font-semibold text-gray-800 mb-3 text-center">🏠 Minimalista</h5>
+                  <div className="grid grid-cols-4 gap-2 mb-3">
+                    <div className="h-6 bg-white border rounded shadow-sm"></div>
+                    <div className="h-6 bg-gray-100 rounded shadow-sm"></div>
+                    <div className="h-6 bg-gray-300 rounded shadow-sm"></div>
+                    <div className="h-6 bg-stone-200 rounded shadow-sm"></div>
+                  </div>
+                  <p className="text-xs text-gray-600">Branco, cinza claro, cinza médio, bege neutro</p>
+                </div>
+
+                {/* Boho */}
+                <div className="p-5 border-2 border-amber-200 rounded-lg bg-amber-50">
+                  <h5 className="font-semibold text-amber-800 mb-3 text-center">🌿 Boho</h5>
+                  <div className="grid grid-cols-4 gap-2 mb-3">
+                    <div className="h-6 bg-amber-200 rounded shadow-sm"></div>
+                    <div className="h-6 bg-orange-300 rounded shadow-sm"></div>
+                    <div className="h-6 bg-red-300 rounded shadow-sm"></div>
+                    <div className="h-6 bg-green-400 rounded shadow-sm"></div>
+                  </div>
+                  <p className="text-xs text-amber-700">Terracota, mostarda, vermelho tijolo, verde folha</p>
+                </div>
+
+                {/* Industrial */}
+                <div className="p-5 border-2 border-slate-200 rounded-lg bg-slate-50">
+                  <h5 className="font-semibold text-slate-800 mb-3 text-center">🏭 Industrial</h5>
+                  <div className="grid grid-cols-4 gap-2 mb-3">
+                    <div className="h-6 bg-slate-400 rounded shadow-sm"></div>
+                    <div className="h-6 bg-gray-600 rounded shadow-sm"></div>
+                    <div className="h-6 bg-zinc-500 rounded shadow-sm"></div>
+                    <div className="h-6 bg-orange-400 rounded shadow-sm"></div>
+                  </div>
+                  <p className="text-xs text-slate-600">Cinza chumbo, preto, cobre, laranja ferrugem</p>
+                </div>
+
+                {/* Romântico */}
+                <div className="p-5 border-2 border-pink-200 rounded-lg bg-pink-50">
+                  <h5 className="font-semibold text-pink-800 mb-3 text-center">🌸 Romântico</h5>
+                  <div className="grid grid-cols-4 gap-2 mb-3">
+                    <div className="h-6 bg-pink-200 rounded shadow-sm"></div>
+                    <div className="h-6 bg-rose-100 rounded shadow-sm"></div>
+                    <div className="h-6 bg-purple-200 rounded shadow-sm"></div>
+                    <div className="h-6 bg-white border rounded shadow-sm"></div>
+                  </div>
+                  <p className="text-xs text-pink-700">Rosa suave, pêssego, lilás, branco puro</p>
+                </div>
+
+                {/* Coastal */}
+                <div className="p-5 border-2 border-blue-200 rounded-lg bg-blue-50">
+                  <h5 className="font-semibold text-blue-800 mb-3 text-center">🏖️ Coastal</h5>
+                  <div className="grid grid-cols-4 gap-2 mb-3">
+                    <div className="h-6 bg-blue-300 rounded shadow-sm"></div>
+                    <div className="h-6 bg-cyan-200 rounded shadow-sm"></div>
+                    <div className="h-6 bg-white border rounded shadow-sm"></div>
+                    <div className="h-6 bg-amber-100 rounded shadow-sm"></div>
+                  </div>
+                  <p className="text-xs text-blue-700">Azul oceano, turquesa, branco areia, bege claro</p>
+                </div>
+
+                {/* Eclético */}
+                <div className="p-5 border-2 border-purple-200 rounded-lg bg-purple-50">
+                  <h5 className="font-semibold text-purple-800 mb-3 text-center">🎨 Eclético</h5>
+                  <div className="grid grid-cols-4 gap-2 mb-3">
+                    <div className="h-6 bg-purple-400 rounded shadow-sm"></div>
+                    <div className="h-6 bg-yellow-400 rounded shadow-sm"></div>
+                    <div className="h-6 bg-green-400 rounded shadow-sm"></div>
+                    <div className="h-6 bg-pink-400 rounded shadow-sm"></div>
+                  </div>
+                  <p className="text-xs text-purple-700">Roxo vibrante, amarelo, verde lima, magenta</p>
                 </div>
               </div>
             </div>
@@ -335,13 +413,13 @@ const Decoration = () => {
             </div>
           </div>
 
-          {/* Dicas Econômicas */}
+          {/* Dicas de Decoração */}
           <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
             <div className="flex items-center mb-6">
               <div className="bg-green-100 p-3 rounded-full mr-4">
                 <span className="text-green-600 text-xl">💰</span>
               </div>
-              <h2 className="text-2xl font-bold text-warm-brown-800">Decoração com Orçamento</h2>
+              <h2 className="text-2xl font-bold text-warm-brown-800">Dicas de Decoração</h2>
             </div>
             
             <div className="grid md:grid-cols-2 gap-8">
