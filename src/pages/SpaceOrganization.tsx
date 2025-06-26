@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Layout, Sofa, ChefHat, Bed, Bath, Shirt, Lightbulb } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -91,11 +90,16 @@ const SpaceOrganization = () => {
                   <div className="mb-8">
                     <h4 className="text-lg font-medium text-warm-brown-700 mb-4">Opção 1 - Layout Compacto</h4>
                     <div className="mb-6 rounded-lg overflow-hidden">
-                      <div className="w-full h-48 md:h-64 bg-gray-200 flex items-center justify-center text-gray-500">
-                        Imagem da Sala de Estar - Opção 1
-                        <br />
-                        (Aguardando upload da imagem)
-                      </div>
+                      <img 
+                        src="/lovable-uploads/0745c804-6b37-4c0b-bdd4-9c7e1c8453c3.png" 
+                        alt="Sala de estar - Layout compacto" 
+                        className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                        onClick={() => openImageModal(
+                          "/lovable-uploads/0745c804-6b37-4c0b-bdd4-9c7e1c8453c3.png", 
+                          "Sala de estar - Layout compacto",
+                          "Sala de estar com layout compacto e funcional"
+                        )}
+                      />
                       <div className="bg-warm-brown-50 p-3 text-center">
                         <p className="text-warm-brown-700 text-sm">Sala de estar com layout compacto e funcional</p>
                       </div>
@@ -132,11 +136,16 @@ const SpaceOrganization = () => {
                   <div className="mb-8">
                     <h4 className="text-lg font-medium text-warm-brown-700 mb-4">Opção 2 - Layout Moderno</h4>
                     <div className="mb-6 rounded-lg overflow-hidden">
-                      <div className="w-full h-48 md:h-64 bg-gray-200 flex items-center justify-center text-gray-500">
-                        Imagem da Sala de Estar - Opção 2
-                        <br />
-                        (Aguardando upload da imagem)
-                      </div>
+                      <img 
+                        src="/lovable-uploads/5ede5448-3e25-4241-81a7-1e5b077d1f27.png" 
+                        alt="Sala de estar - Layout moderno" 
+                        className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                        onClick={() => openImageModal(
+                          "/lovable-uploads/5ede5448-3e25-4241-81a7-1e5b077d1f27.png", 
+                          "Sala de estar - Layout moderno",
+                          "Sala de estar com layout moderno e contemporâneo"
+                        )}
+                      />
                       <div className="bg-warm-brown-50 p-3 text-center">
                         <p className="text-warm-brown-700 text-sm">Sala de estar com layout moderno e contemporâneo</p>
                       </div>
@@ -181,11 +190,16 @@ const SpaceOrganization = () => {
                   <div className="mb-8">
                     <h4 className="text-lg font-medium text-orange-700 mb-4">Opção 1 - Mesa Retangular</h4>
                     <div className="mb-6 rounded-lg overflow-hidden">
-                      <div className="w-full h-48 md:h-64 bg-gray-200 flex items-center justify-center text-gray-500">
-                        Imagem da Sala de Jantar - Opção 1
-                        <br />
-                        (Aguardando upload da imagem)
-                      </div>
+                      <img 
+                        src="/lovable-uploads/572e0612-b234-4079-adb8-5995b42f3979.png" 
+                        alt="Sala de jantar - Mesa retangular" 
+                        className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                        onClick={() => openImageModal(
+                          "/lovable-uploads/572e0612-b234-4079-adb8-5995b42f3979.png", 
+                          "Sala de jantar - Mesa retangular",
+                          "Sala de jantar com mesa retangular para 4 pessoas"
+                        )}
+                      />
                       <div className="bg-orange-50 p-3 text-center">
                         <p className="text-orange-700 text-sm">Sala de jantar com mesa retangular para 4 pessoas</p>
                       </div>
@@ -222,11 +236,16 @@ const SpaceOrganization = () => {
                   <div className="mb-8">
                     <h4 className="text-lg font-medium text-orange-700 mb-4">Opção 2 - Mesa Redonda</h4>
                     <div className="mb-6 rounded-lg overflow-hidden">
-                      <div className="w-full h-48 md:h-64 bg-gray-200 flex items-center justify-center text-gray-500">
-                        Imagem da Sala de Jantar - Opção 2
-                        <br />
-                        (Aguardando upload da imagem)
-                      </div>
+                      <img 
+                        src="/lovable-uploads/8a5434b1-b4b6-44fb-9b0f-61bd689c03ba.png" 
+                        alt="Sala de jantar - Mesa redonda" 
+                        className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                        onClick={() => openImageModal(
+                          "/lovable-uploads/8a5434b1-b4b6-44fb-9b0f-61bd689c03ba.png", 
+                          "Sala de jantar - Mesa redonda",
+                          "Sala de jantar com mesa redonda compacta"
+                        )}
+                      />
                       <div className="bg-orange-50 p-3 text-center">
                         <p className="text-orange-700 text-sm">Sala de jantar com mesa redonda compacta</p>
                       </div>
@@ -257,7 +276,6 @@ const SpaceOrganization = () => {
                       </div>
                     </div>
                   </div>
-                </div>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-6">
                   <div>
