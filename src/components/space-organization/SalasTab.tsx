@@ -28,11 +28,11 @@ export const SalasTab = ({ openImageModal }: SalasTabProps) => {
           <h4 className="text-lg font-medium text-warm-brown-700 mb-4">Opção 1 - Layout Compacto</h4>
           <div className="mb-6 rounded-lg overflow-hidden">
             <img 
-              src="/lovable-uploads/0745c804-6b37-4c0b-bdd4-9c7e1c8453c3.png" 
+              src="/lovable-uploads/9234b11e-5542-4eb6-9723-ae0af2ed1a94.png" 
               alt="Sala de estar - Layout compacto" 
               className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
               onClick={() => openImageModal(
-                "/lovable-uploads/0745c804-6b37-4c0b-bdd4-9c7e1c8453c3.png", 
+                "/lovable-uploads/9234b11e-5542-4eb6-9723-ae0af2ed1a94.png", 
                 "Sala de estar - Layout compacto",
                 "Sala de estar com layout compacto e funcional"
               )}
@@ -74,11 +74,11 @@ export const SalasTab = ({ openImageModal }: SalasTabProps) => {
           <h4 className="text-lg font-medium text-warm-brown-700 mb-4">Opção 2 - Layout Moderno</h4>
           <div className="mb-6 rounded-lg overflow-hidden">
             <img 
-              src="/lovable-uploads/5ede5448-3e25-4241-81a7-1e5b077d1f27.png" 
+              src="/lovable-uploads/eadd1165-f0c9-4d6c-87e2-51240ade142b.png" 
               alt="Sala de estar - Layout moderno" 
               className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
               onClick={() => openImageModal(
-                "/lovable-uploads/5ede5448-3e25-4241-81a7-1e5b077d1f27.png", 
+                "/lovable-uploads/eadd1165-f0c9-4d6c-87e2-51240ade142b.png", 
                 "Sala de estar - Layout moderno",
                 "Sala de estar com layout moderno e contemporâneo"
               )}
@@ -125,20 +125,20 @@ export const SalasTab = ({ openImageModal }: SalasTabProps) => {
         
         {/* Opção 1 - Sala de Jantar */}
         <div className="mb-8">
-          <h4 className="text-lg font-medium text-orange-700 mb-4">Opção 1 - Mesa Retangular</h4>
+          <h4 className="text-lg font-medium text-orange-700 mb-4">Opção 1 - Layout Compacto</h4>
           <div className="mb-6 rounded-lg overflow-hidden">
             <img 
-              src="/lovable-uploads/572e0612-b234-4079-adb8-5995b42f3979.png" 
-              alt="Sala de jantar - Mesa retangular" 
+              src="/lovable-uploads/bc8d4448-f173-4a76-8044-664a3e5eb7d2.png" 
+              alt="Sala de jantar - Layout compacto" 
               className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
               onClick={() => openImageModal(
-                "/lovable-uploads/572e0612-b234-4079-adb8-5995b42f3979.png", 
-                "Sala de jantar - Mesa retangular",
-                "Sala de jantar com mesa retangular para 4 pessoas"
+                "/lovable-uploads/bc8d4448-f173-4a76-8044-664a3e5eb7d2.png", 
+                "Sala de jantar - Layout compacto",
+                "Sala de jantar com mesa retangular para 4 pessoas - Layout compacto"
               )}
             />
             <div className="bg-orange-50 p-3 text-center">
-              <p className="text-orange-700 text-sm">Sala de jantar com mesa retangular para 4 pessoas</p>
+              <p className="text-orange-700 text-sm">Sala de jantar com mesa retangular para 4 pessoas - Layout compacto</p>
             </div>
           </div>
 
@@ -148,11 +148,11 @@ export const SalasTab = ({ openImageModal }: SalasTabProps) => {
             <div className="bg-white p-4 rounded-lg border border-blue-200">
               <h6 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
                 <ChefHat className="w-5 h-5 mr-2 text-blue-600" />
-                Sala de Jantar - Mesa Retangular
+                Sala de Jantar - Layout Compacto
               </h6>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
-                  <span className="text-sage-green-700 font-medium">Mesa 4 Lugares:</span>
+                  <span className="text-sage-green-700 font-medium">Mesa Retangular 4 Lugares:</span>
                 </div>
                 <div className="ml-4 space-y-1 text-sage-green-600">
                   <div>• Comprimento máximo: <span className="font-semibold">1,40m</span></div>
@@ -171,20 +171,20 @@ export const SalasTab = ({ openImageModal }: SalasTabProps) => {
 
         {/* Opção 2 - Sala de Jantar */}
         <div className="mb-8">
-          <h4 className="text-lg font-medium text-orange-700 mb-4">Opção 2 - Mesa Redonda</h4>
+          <h4 className="text-lg font-medium text-orange-700 mb-4">Opção 2 - Layout Moderno</h4>
           <div className="mb-6 rounded-lg overflow-hidden">
             <img 
-              src="/lovable-uploads/8a5434b1-b4b6-44fb-9b0f-61bd689c03ba.png" 
-              alt="Sala de jantar - Mesa redonda" 
+              src="/lovable-uploads/f281f49f-6508-427d-9dde-1cd599e47394.png" 
+              alt="Sala de jantar - Layout moderno" 
               className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
               onClick={() => openImageModal(
-                "/lovable-uploads/8a5434b1-b4b6-44fb-9b0f-61bd689c03ba.png", 
-                "Sala de jantar - Mesa redonda",
-                "Sala de jantar com mesa redonda compacta"
+                "/lovable-uploads/f281f49f-6508-427d-9dde-1cd599e47394.png", 
+                "Sala de jantar - Layout moderno",
+                "Sala de jantar com mesa retangular para 4 pessoas - Layout moderno"
               )}
             />
             <div className="bg-orange-50 p-3 text-center">
-              <p className="text-orange-700 text-sm">Sala de jantar com mesa redonda compacta</p>
+              <p className="text-orange-700 text-sm">Sala de jantar com mesa retangular para 4 pessoas - Layout moderno</p>
             </div>
           </div>
 
@@ -194,14 +194,15 @@ export const SalasTab = ({ openImageModal }: SalasTabProps) => {
             <div className="bg-white p-4 rounded-lg border border-blue-200">
               <h6 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
                 <ChefHat className="w-5 h-5 mr-2 text-blue-600" />
-                Sala de Jantar - Mesa Redonda
+                Sala de Jantar - Layout Moderno
               </h6>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
-                  <span className="text-sage-green-700 font-medium">Mesa Redonda 4 Lugares:</span>
+                  <span className="text-sage-green-700 font-medium">Mesa Retangular 4 Lugares:</span>
                 </div>
                 <div className="ml-4 space-y-1 text-sage-green-600">
-                  <div>• Diâmetro máximo: <span className="font-semibold">1,20m</span></div>
+                  <div>• Comprimento máximo: <span className="font-semibold">1,40m</span></div>
+                  <div>• Profundidade máxima: <span className="font-semibold">0,90m</span></div>
                 </div>
                 <div className="flex justify-between mt-3">
                   <span className="text-sage-green-700 font-medium">Aparador:</span>
