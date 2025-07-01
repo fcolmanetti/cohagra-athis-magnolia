@@ -1,4 +1,3 @@
-
 import { ChefHat } from "lucide-react";
 
 interface CozinhaTabProps {
@@ -103,12 +102,12 @@ export const CozinhaTab = ({ openImageModal }: CozinhaTabProps) => {
             <div className="bg-white p-4 rounded-lg border border-blue-200">
               <h5 className="font-semibold text-warm-brown-800 mb-3 flex items-center">
                 <span className="text-xl mr-2">🔥</span>
-                Cooktop/Fogão
+                Fogão
               </h5>
               <div className="space-y-2 text-sm">
                 <div className="ml-4 space-y-1 text-sage-green-600">
-                  <div>• Largura máxima: <span className="font-semibold">0,60m</span></div>
-                  <div>• Profundidade máxima: <span className="font-semibold">0,52m</span></div>
+                  <div>• Largura máxima: <span className="font-semibold">0,55m</span></div>
+                  <div>• Profundidade máxima: <span className="font-semibold">0,65m</span></div>
                 </div>
               </div>
             </div>
