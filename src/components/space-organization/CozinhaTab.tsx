@@ -128,6 +128,94 @@ export const CozinhaTab = ({ openImageModal }: CozinhaTabProps) => {
         </div>
       </div>
 
+      {/* Nova Seção - Móveis Planejados */}
+      <div className="mb-12">
+        <h3 className="text-xl font-semibold text-orange-800 mb-6 flex items-center">
+          <span className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">🪑</span>
+          Móveis Planejados
+        </h3>
+        
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Armários */}
+          <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-6 border border-orange-200">
+            <h4 className="text-lg font-semibold text-orange-800 mb-4 flex items-center">
+              <span className="text-2xl mr-3">🗄️</span>
+              Armários e Gabinetes
+            </h4>
+            <ul className="space-y-3 text-sm text-orange-700">
+              <li className="flex items-start">
+                <span className="text-orange-500 mr-2 mt-1">•</span>
+                <span><strong>Armário Superior:</strong> Altura de 60-80cm, ideal para louças e mantimentos</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-orange-500 mr-2 mt-1">•</span>
+                <span><strong>Gabinete Inferior:</strong> Altura padrão de 85cm com gavetas para utensílios</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-orange-500 mr-2 mt-1">•</span>
+                <span><strong>Profundidade:</strong> 35-40cm para armários superiores, 60cm para inferiores</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-orange-500 mr-2 mt-1">•</span>
+                <span><strong>Material:</strong> MDF ou MDP com acabamento resistente à umidade</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Bancada */}
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border border-blue-200">
+            <h4 className="text-lg font-semibold text-blue-800 mb-4 flex items-center">
+              <span className="text-2xl mr-3">🔲</span>
+              Bancada de Trabalho
+            </h4>
+            <ul className="space-y-3 text-sm text-blue-700">
+              <li className="flex items-start">
+                <span className="text-blue-500 mr-2 mt-1">•</span>
+                <span><strong>Altura Ideal:</strong> 85-90cm para conforto durante o preparo</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-500 mr-2 mt-1">•</span>
+                <span><strong>Profundidade:</strong> 60cm para espaço adequado de trabalho</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-500 mr-2 mt-1">•</span>
+                <span><strong>Material:</strong> Granito, mármore ou quartzo para durabilidade</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-500 mr-2 mt-1">•</span>
+                <span><strong>Extensão Mínima:</strong> 1,20m para área de preparo confortável</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Dicas Importantes */}
+        <div className="mt-6 bg-gradient-to-r from-amber-50 to-yellow-50 border-l-4 border-amber-400 p-6 rounded-r-lg">
+          <h4 className="text-lg font-semibold text-amber-800 mb-3 flex items-center">
+            <span className="text-xl mr-2">💡</span>
+            Dicas Importantes para Móveis Planejados
+          </h4>
+          <div className="grid md:grid-cols-2 gap-4 text-sm text-amber-700">
+            <div>
+              <p className="mb-2"><strong>Aproveitamento do Espaço:</strong></p>
+              <ul className="space-y-1 ml-4">
+                <li>• Use cantos com sistemas de canto-reto</li>
+                <li>• Aproveite altura até o teto</li>
+                <li>• Gavetas são mais funcionais que prateleiras</li>
+              </ul>
+            </div>
+            <div>
+              <p className="mb-2"><strong>Funcionalidade:</strong></p>
+              <ul className="space-y-1 ml-4">
+                <li>• Organize por zona de uso (preparo, cocção, limpeza)</li>
+                <li>• Deixe espaço livre para circulação (90cm)</li>
+                <li>• Considere iluminação interna nos armários</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Importante */}
       <div className="mt-4 bg-amber-50 border-l-4 border-amber-500 p-4 mb-8">
         <p className="text-amber-700 text-sm">
