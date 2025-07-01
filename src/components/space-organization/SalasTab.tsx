@@ -28,11 +28,11 @@ export const SalasTab = ({ openImageModal }: SalasTabProps) => {
           <h4 className="text-lg font-medium text-warm-brown-700 mb-4">Opção 1 - Layout Compacto</h4>
           <div className="mb-6 rounded-lg overflow-hidden">
             <img 
-              src="/lovable-uploads/9234b11e-5542-4eb6-9723-ae0af2ed1a94.png" 
+              src="/lovable-uploads/eadd1165-f0c9-4d6c-87e2-51240ade142b.png" 
               alt="Sala de estar - Layout compacto" 
               className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
               onClick={() => openImageModal(
-                "/lovable-uploads/9234b11e-5542-4eb6-9723-ae0af2ed1a94.png", 
+                "/lovable-uploads/eadd1165-f0c9-4d6c-87e2-51240ade142b.png", 
                 "Sala de estar - Layout compacto",
                 "Sala de estar com layout compacto e funcional"
               )}
@@ -74,11 +74,11 @@ export const SalasTab = ({ openImageModal }: SalasTabProps) => {
           <h4 className="text-lg font-medium text-warm-brown-700 mb-4">Opção 2 - Layout Moderno</h4>
           <div className="mb-6 rounded-lg overflow-hidden">
             <img 
-              src="/lovable-uploads/eadd1165-f0c9-4d6c-87e2-51240ade142b.png" 
+              src="/lovable-uploads/9234b11e-5542-4eb6-9723-ae0af2ed1a94.png" 
               alt="Sala de estar - Layout moderno" 
               className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
               onClick={() => openImageModal(
-                "/lovable-uploads/eadd1165-f0c9-4d6c-87e2-51240ade142b.png", 
+                "/lovable-uploads/9234b11e-5542-4eb6-9723-ae0af2ed1a94.png", 
                 "Sala de estar - Layout moderno",
                 "Sala de estar com layout moderno e contemporâneo"
               )}
