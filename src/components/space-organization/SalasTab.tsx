@@ -98,10 +98,10 @@ export const SalasTab = ({ openImageModal }: SalasTabProps) => {
               </h6>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
-                  <span className="text-sage-green-700 font-medium">Sofá Modular:</span>
+                  <span className="text-sage-green-700 font-medium">Sofá:</span>
                 </div>
                 <div className="ml-4 space-y-1 text-sage-green-600">
-                  <div>• Comprimento máximo: <span className="font-semibold">2,40m</span></div>
+                  <div>• Comprimento máximo: <span className="font-semibold">2,65m</span></div>
                   <div>• Profundidade máxima: <span className="font-semibold">0,90m</span></div>
                 </div>
                 <div className="flex justify-between mt-3">
