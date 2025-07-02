@@ -143,6 +143,26 @@ const Condominium = () => {
             </div>
           </div>
 
+          {/* Administração do Condomínio */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <div className="flex items-center mb-6">
+              <div className="bg-warm-brown-100 p-3 rounded-full mr-4">
+                <Users className="w-6 h-6 text-warm-brown-600" />
+              </div>
+              <h2 className="text-2xl font-bold text-warm-brown-800">Administração do Condomínio</h2>
+            </div>
+            
+            <div className="bg-warm-brown-50 p-6 rounded-lg">
+              <h3 className="font-semibold text-warm-brown-800 mb-3">📋 Informações Importantes:</h3>
+              <ul className="space-y-2 text-warm-brown-700">
+                <li>• O síndico será eleito pelos moradores em assembleia</li>
+                <li>• A administradora será contratada pelo condomínio</li>
+                <li>• Enquanto isso, contate a COHAGRA para questões administrativas</li>
+                <li>• Participe das reuniões de moradores para organizar o condomínio</li>
+              </ul>
+            </div>
+          </div>
+
           {/* Horários de Silêncio */}
           <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
             <div className="flex items-center mb-6">
