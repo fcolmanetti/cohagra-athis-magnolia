@@ -1,5 +1,5 @@
 
-import { Home, Phone, QrCode, MessageCircle } from "lucide-react";
+import { Home, Phone, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Chatbot from "./Chatbot";
@@ -47,10 +47,6 @@ const Header = () => {
                 <span>Contatos</span>
               </Link>
               
-              <button className="flex items-center justify-center space-x-1 sm:space-x-2 px-4 py-2 bg-warm-brown-100 text-warm-brown-700 rounded-lg hover:bg-warm-brown-200 transition-colors w-full sm:w-auto">
-                <QrCode className="w-4 h-4" />
-                <span>QR Code</span>
-              </button>
             </div>
           </div>
         </div>

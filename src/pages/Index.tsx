@@ -118,7 +118,7 @@ const Index = () => {
               Contatos Úteis
             </Link>
             <button className="px-6 py-3 bg-sage-green-500 text-white rounded-lg hover:bg-sage-green-600 transition-colors">
-              Vídeos e QR Code
+              Vídeos
             </button>
           </div>
         </div>
