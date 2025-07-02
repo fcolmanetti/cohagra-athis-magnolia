@@ -30,8 +30,8 @@ const Condominium = () => {
           {/* Hero Image */}
           <div className="mb-12 rounded-2xl overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1524230572899-a752b3835840?w=1200&h=400&fit=crop" 
-              alt="Edifício residencial" 
+              src="/lovable-uploads/fe317bc7-a8cc-4557-aa11-2ba1f50d6d83.png" 
+              alt="Assembleia de condomínio com moradores votando" 
               className="w-full h-64 md:h-80 object-cover"
             />
           </div>
