@@ -27,6 +27,15 @@ const Contacts = () => {
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           
+          {/* Imagem da COHAGRA */}
+          <div className="mb-8 rounded-2xl overflow-hidden shadow-lg">
+            <img 
+              src="/lovable-uploads/ea4cfe7c-3a48-49dc-923a-fe4d3169deec.png" 
+              alt="Fachada da COHAGRA - Companhia de Habitação do Vale do Rio Grande" 
+              className="w-full h-64 md:h-80 object-cover"
+            />
+          </div>
+
           {/* COHAGRA - Contato Principal */}
           <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
             <div className="flex items-center mb-6">
