@@ -1,5 +1,5 @@
 
-import { ArrowLeft, Building2, AlertTriangle, Eye, Wind } from "lucide-react";
+import { ArrowLeft, Building2, AlertTriangle, Eye } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
@@ -50,14 +50,14 @@ const ApartmentGuide = () => {
             <div className="bg-blue-50 p-6 rounded-lg">
               <h3 className="font-semibold text-blue-800 mb-3">📐 Entendendo o Layout:</h3>
               <ul className="space-y-2 text-blue-700">
-                <li>• <strong>Sala TV:</strong> 6,12 m² - Área de estar principal</li>
-                <li>• <strong>Sala Jantar:</strong> 6,58 m² - Espaço para refeições</li>
-                <li>• <strong>Cozinha:</strong> 6,56 m² - Área gourmet integrada</li>
-                <li>• <strong>Quarto 1:</strong> 6,76 m² - Dormitório principal</li>
-                <li>• <strong>Quarto 2:</strong> 8,07 m² - Dormitório maior</li>
-                <li>• <strong>Banheiro:</strong> 3,31 m² - Banheiro social</li>
-                <li>• <strong>Lavanderia:</strong> 2,29 m² - Área de serviço</li>
-                <li>• <strong>Sacada:</strong> 1,91 m² - Área externa</li>
+                <li>• <strong>Sala TV:</strong> 6,12 m²</li>
+                <li>• <strong>Sala Jantar:</strong> 6,58 m²</li>
+                <li>• <strong>Cozinha:</strong> 6,56 m²</li>
+                <li>• <strong>Quarto 1:</strong> 6,76 m²</li>
+                <li>• <strong>Quarto 2:</strong> 8,07 m²</li>
+                <li>• <strong>Banheiro:</strong> 3,31 m²</li>
+                <li>• <strong>Lavanderia:</strong> 2,29 m²</li>
+                <li>• <strong>Sacada:</strong> 1,91 m²</li>
               </ul>
             </div>
           </div>
@@ -125,46 +125,6 @@ const ApartmentGuide = () => {
             </div>
           </div>
 
-          {/* Ventilação */}
-          <div className="bg-white rounded-2xl shadow-lg p-8">
-            <div className="flex items-center mb-6">
-              <div className="bg-sage-green-100 p-3 rounded-full mr-4">
-                <Wind className="w-6 h-6 text-sage-green-600" />
-              </div>
-              <h2 className="text-2xl font-bold text-warm-brown-800">Ventilação Natural</h2>
-            </div>
-            
-            <p className="text-sage-green-700 mb-6 text-lg">
-              Ventile sempre os ambientes. A parede de concreto tem bom isolamento térmico, 
-              mas o ar fresco é essencial para o conforto e saúde.
-            </p>
-
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="text-center p-4">
-                <div className="bg-sage-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Wind className="w-8 h-8 text-sage-green-600" />
-                </div>
-                <h4 className="font-semibold text-warm-brown-800 mb-2">Manhã</h4>
-                <p className="text-sm text-sage-green-600">Abra as janelas para renovar o ar</p>
-              </div>
-              
-              <div className="text-center p-4">
-                <div className="bg-sage-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Wind className="w-8 h-8 text-sage-green-600" />
-                </div>
-                <h4 className="font-semibold text-warm-brown-800 mb-2">Cozinha</h4>
-                <p className="text-sm text-sage-green-600">Ventile durante e após cozinhar</p>
-              </div>
-              
-              <div className="text-center p-4">
-                <div className="bg-sage-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Wind className="w-8 h-8 text-sage-green-600" />
-                </div>
-                <h4 className="font-semibold text-warm-brown-800 mb-2">Banheiro</h4>
-                <p className="text-sm text-sage-green-600">Mantenha sempre ventilado</p>
-              </div>
-            </div>
-          </div>
 
           <div className="mt-12 text-center">
             <Link 
