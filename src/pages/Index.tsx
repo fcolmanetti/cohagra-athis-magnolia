@@ -126,31 +126,6 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
-          <div className="flex justify-center mb-6">
-            <div className="bg-gradient-to-br from-warm-brown-500 to-sage-green-600 p-4 rounded-full">
-              <Phone className="w-8 h-8 text-white" />
-            </div>
-          </div>
-          <h3 className="text-2xl font-bold text-warm-brown-800 mb-4">
-            Precisa de Ajuda?
-          </h3>
-          <p className="text-sage-green-600 mb-6">
-            Entre em contato com a COHAGRA ou use nosso assistente virtual para tirar dúvidas
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link 
-              to="/contatos"
-              className="px-6 py-3 bg-warm-brown-500 text-white rounded-lg hover:bg-warm-brown-600 transition-colors"
-            >
-              Contatos Úteis
-            </Link>
-            <button className="px-6 py-3 bg-sage-green-500 text-white rounded-lg hover:bg-sage-green-600 transition-colors">
-              Vídeos
-            </button>
-          </div>
-        </div>
-
         {/* Rodapé Institucional */}
         <footer className="mt-16 bg-gradient-to-br from-warm-brown-800 to-sage-green-800 text-white rounded-2xl shadow-xl p-8">
           <div className="text-center mb-8">
@@ -185,6 +160,32 @@ const Index = () => {
                 <Settings className="w-6 h-6" />
                 Acessar Sistema ATHIS
               </a>
+            </div>
+          </div>
+
+          {/* Seção Precisa de Ajuda */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 mb-8 border border-white/20">
+            <div className="flex justify-center mb-6">
+              <div className="bg-white/20 p-4 rounded-full">
+                <Phone className="w-8 h-8 text-white" />
+              </div>
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-4">
+              Precisa de Ajuda?
+            </h3>
+            <p className="text-white/90 mb-6">
+              Entre em contato com a COHAGRA ou use nosso assistente virtual para tirar dúvidas
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link 
+                to="/contatos"
+                className="px-6 py-3 bg-white text-warm-brown-800 rounded-lg hover:bg-white/90 transition-colors font-medium"
+              >
+                Contatos Úteis
+              </Link>
+              <button className="px-6 py-3 bg-white/20 text-white border border-white/30 rounded-lg hover:bg-white/30 transition-colors font-medium">
+                Vídeos
+              </button>
             </div>
           </div>
 
