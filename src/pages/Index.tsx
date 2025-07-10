@@ -150,6 +150,49 @@ const Index = () => {
             </button>
           </div>
         </div>
+
+        {/* Rodapé Institucional */}
+        <footer className="mt-16 bg-gradient-to-br from-warm-brown-800 to-sage-green-800 text-white rounded-2xl shadow-xl p-8">
+          <div className="text-center mb-8">
+            <div className="flex justify-center mb-6">
+              <div className="bg-white/10 p-4 rounded-full">
+                <Building2 className="w-10 h-10 text-white" />
+              </div>
+            </div>
+            <h3 className="text-2xl font-bold mb-4">
+              COHAGRA - Companhia Habitacional de Gravataí
+            </h3>
+            <p className="text-white/80 max-w-2xl mx-auto mb-8">
+              Promovendo habitação de qualidade e desenvolvimento urbano sustentável para a comunidade de Gravataí
+            </p>
+          </div>
+
+          {/* Grande Chamada para Sistema ATHIS */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8 border border-white/20">
+            <div className="text-center">
+              <h4 className="text-xl font-bold mb-3">
+                Sistema de Gestão ATHIS
+              </h4>
+              <p className="text-white/90 mb-6">
+                Acesse o sistema de gestão de Assistência Técnica para Habitação de Interesse Social
+              </p>
+              <a 
+                href="https://cohagra-athis-gestao.lovable.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-warm-brown-800 rounded-lg font-bold text-lg hover:bg-white/90 transition-all duration-300 hover:scale-105 shadow-lg"
+              >
+                <Settings className="w-6 h-6" />
+                Acessar Sistema ATHIS
+              </a>
+            </div>
+          </div>
+
+          <div className="text-center text-white/60 text-sm border-t border-white/20 pt-6">
+            <p>&copy; 2024 COHAGRA - Todos os direitos reservados</p>
+            <p className="mt-2">Portal Magnólia - Manual para Morar Bem</p>
+          </div>
+        </footer>
       </main>
     </div>
   );
