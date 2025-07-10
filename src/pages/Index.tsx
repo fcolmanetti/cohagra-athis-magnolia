@@ -160,7 +160,7 @@ const Index = () => {
               </div>
             </div>
             <h3 className="text-2xl font-bold mb-4">
-              COHAGRA - Companhia Habitacional de Gravataí
+              COHAGRA - Companhia Habitacional do Vale do Rio Grande
             </h3>
             <p className="text-white/80 max-w-2xl mx-auto mb-8">
               Promovendo habitação de qualidade e desenvolvimento urbano sustentável para a comunidade de Gravataí
