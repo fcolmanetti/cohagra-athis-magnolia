@@ -12,13 +12,15 @@ const Header = () => {
       <header className="bg-white/95 backdrop-blur-sm border-b border-warm-brown-200 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-6 sm:py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <div className="flex items-center space-x-2 sm:space-x-4 justify-center sm:justify-start">
+            <div className="flex items-center space-x-2 sm:space-x-4 justify-start">
               <img 
                 src="/lovable-uploads/e556b43c-41f7-4a9f-97fe-893d2dcf632b.png" 
                 alt="Logo COHAGRA" 
                 className="h-8 sm:h-10 w-auto flex-shrink-0"
               />
-              
+            </div>
+            
+            <div className="flex justify-center sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2">
               <Link to="/" className="flex items-center space-x-2 sm:space-x-3 hover:opacity-80 transition-opacity">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-warm-brown-500 to-sage-green-600 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Home className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
