@@ -13,11 +13,13 @@ const Header = () => {
         <div className="container mx-auto px-4 py-6 sm:py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div className="flex items-center space-x-2 sm:space-x-4 justify-start">
-              <img 
-                src="/lovable-uploads/e556b43c-41f7-4a9f-97fe-893d2dcf632b.png" 
-                alt="Logo COHAGRA" 
-                className="h-8 sm:h-10 w-auto flex-shrink-0"
-              />
+              <Link to="/" className="hover:opacity-80 transition-opacity">
+                <img 
+                  src="/lovable-uploads/e556b43c-41f7-4a9f-97fe-893d2dcf632b.png" 
+                  alt="Logo COHAGRA" 
+                  className="h-12 sm:h-16 w-auto flex-shrink-0"
+                />
+              </Link>
             </div>
             
             <div className="flex justify-center sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2">
