@@ -163,7 +163,7 @@ const Index = () => {
               COHAGRA - Companhia Habitacional do Vale do Rio Grande
             </h3>
             <p className="text-white/80 max-w-2xl mx-auto mb-8">
-              Promovendo habitação de qualidade e desenvolvimento urbano sustentável para a comunidade de Gravataí
+              Nossa equipe é formada por profissionais comprometidos com a transformação social através da habitação de qualidade. Trabalhamos incansavelmente para garantir que cada família tenha acesso a moradia digna e segura. Acesse o seu recurso ATHIS, é gratuito.
             </p>
           </div>
 
