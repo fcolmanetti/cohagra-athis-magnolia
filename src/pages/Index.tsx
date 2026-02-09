@@ -142,17 +142,6 @@ const Index = () => {
             </p>
           </div>
 
-          {/* Grande Chamada para Sistema ATHIS */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8 border border-white/20">
-            <div className="text-center">
-              <h4 className="text-xl font-bold mb-3">
-                Sistema de Gestão ATHIS
-              </h4>
-              <p className="text-white/90">
-                Acesse o sistema de gestão de Assistência Técnica para Habitação de Interesse Social
-              </p>
-            </div>
-          </div>
 
           {/* Seção Precisa de Ajuda */}
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 mb-8 border border-white/20">
