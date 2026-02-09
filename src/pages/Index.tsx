@@ -98,33 +98,6 @@ const Index = () => {
           ))}
         </div>
 
-        {/* Faixa da Equipe do Escritório Público */}
-        <div className="bg-gradient-to-r from-warm-brown-100 to-sage-green-100 rounded-2xl shadow-md p-6 mb-8 text-center border-l-4 border-warm-brown-500">
-          <h3 className="text-xl font-bold text-warm-brown-800 mb-3">
-            Equipe do Escritório Público de Arquitetura - COHAGRA
-          </h3>
-          <p className="text-sage-green-700 mb-4">
-            O Portal Magnólia é gerenciado por uma equipe multidisciplinar dedicada ao atendimento e orientação dos moradores
-          </p>
-          <div className="flex flex-wrap justify-center gap-6 text-sm">
-            <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-warm-brown-500 rounded-full"></div>
-              <span className="text-warm-brown-700 font-medium">Arquiteto</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-sage-green-500 rounded-full"></div>
-              <span className="text-sage-green-700 font-medium">Engenheiro</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-warm-brown-400 rounded-full"></div>
-              <span className="text-warm-brown-700 font-medium">Assistente Social</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-sage-green-400 rounded-full"></div>
-              <span className="text-sage-green-700 font-medium">Técnico Administrativo</span>
-            </div>
-          </div>
-        </div>
 
         {/* Rodapé Institucional */}
         <footer className="mt-16 bg-gradient-to-br from-warm-brown-800 to-sage-green-800 text-white rounded-2xl shadow-xl p-8">
