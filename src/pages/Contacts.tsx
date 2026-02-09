@@ -59,7 +59,7 @@ const Contacts = () => {
                   <Mail className="w-5 h-5 text-blue-600 mr-3" />
                   <div>
                     <p className="font-semibold text-warm-brown-800">E-mail</p>
-                    <p className="text-sage-green-700">contato@cohagra.mg.gov.br</p>
+                    <p className="text-sage-green-700">controleinterno.cohagra@uberaba.mg.gov.br</p>
                   </div>
                 </div>
                 
@@ -191,7 +191,7 @@ const Contacts = () => {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-3">
-                <a href="https://www.cohagra.mg.gov.br" target="_blank" rel="noopener noreferrer" 
+                <a href="https://www.cohagra.com.br/" target="_blank" rel="noopener noreferrer" 
                    className="flex items-center p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                   <ExternalLink className="w-4 h-4 text-blue-600 mr-3" />
                   <span className="text-blue-700 font-medium">Site da COHAGRA</span>

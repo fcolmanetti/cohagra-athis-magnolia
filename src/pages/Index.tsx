@@ -164,9 +164,6 @@ const Index = () => {
                 >
                   Contatos Úteis
                 </Link>
-                <button className="px-6 py-3 bg-white/20 text-white border border-white/30 rounded-lg hover:bg-white/30 transition-colors font-medium">
-                  Vídeos de Ajuda
-                </button>
               </div>
             </div>
           </div>
