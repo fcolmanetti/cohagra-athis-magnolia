@@ -190,7 +190,7 @@ const Maintenance = () => {
               <ol className="text-red-700 space-y-1">
                 <li>1. Feche o registro de água</li>
                 <li>2. Desligue equipamentos elétricos próximos</li>
-                <li>3. Avise imediatamente a COHAGRA</li>
+                <li>3. Avise imediatamente o síndico</li>
                 <li>4. Documente com fotos se possível</li>
               </ol>
             </div>
