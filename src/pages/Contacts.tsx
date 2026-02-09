@@ -87,13 +87,6 @@ const Contacts = () => {
                   </div>
                 </div>
                 
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">🏠 Pós-Venda Residencial Magnólia</h4>
-                  <p className="text-blue-700 text-sm">
-                    Para questões específicas sobre o seu apartamento, 
-                    sempre mencione que é morador do Residencial Magnólia.
-                  </p>
-                </div>
               </div>
             </div>
           </div>
