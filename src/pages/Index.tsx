@@ -148,18 +148,9 @@ const Index = () => {
               <h4 className="text-xl font-bold mb-3">
                 Sistema de Gestão ATHIS
               </h4>
-              <p className="text-white/90 mb-6">
+              <p className="text-white/90">
                 Acesse o sistema de gestão de Assistência Técnica para Habitação de Interesse Social
               </p>
-              <a 
-                href="https://cohagra-athis-gestao.lovable.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-warm-brown-800 rounded-lg font-bold text-lg hover:bg-white/90 transition-all duration-300 hover:scale-105 shadow-lg"
-              >
-                <Settings className="w-6 h-6" />
-                Acessar Sistema ATHIS
-              </a>
             </div>
           </div>
 
