@@ -156,8 +156,6 @@ const Condominium = () => {
               <h3 className="font-semibold text-warm-brown-800 mb-3">📋 Informações Importantes:</h3>
               <ul className="space-y-2 text-warm-brown-700">
                 <li>• O síndico será eleito pelos moradores em assembleia</li>
-                <li>• A administradora será contratada pelo condomínio</li>
-                <li>• Enquanto isso, contate a COHAGRA para questões administrativas</li>
                 <li>• Participe das reuniões de moradores para organizar o condomínio</li>
               </ul>
             </div>
