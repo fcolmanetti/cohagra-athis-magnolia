@@ -83,7 +83,7 @@ const Index = () => {
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-warm-brown-800 mb-4">
-            Manual para Morar Bem
+            Morar Bem - Guia de Cuidados com a Moradia
           </h2>
           <p className="text-lg text-sage-green-600 max-w-2xl mx-auto">
             Navegue pelos tópicos abaixo para descobrir tudo que você precisa saber sobre sua nova moradia
@@ -143,7 +143,7 @@ const Index = () => {
 
           <div className="text-center text-white/60 text-sm border-t border-white/20 pt-6">
             <p>&copy; 2024 COHAGRA - Todos os direitos reservados</p>
-            <p className="mt-2">Portal Magnólia - Manual para Morar Bem</p>
+            <p className="mt-2">Portal Magnólia - Morar Bem - Guia de Cuidados com a Moradia</p>
           </div>
         </footer>
       </main>
