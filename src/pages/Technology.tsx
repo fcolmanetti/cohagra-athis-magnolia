@@ -30,8 +30,8 @@ const Technology = () => {
           {/* Hero Image */}
           <div className="mb-12 rounded-2xl overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1200&h=400&fit=crop" 
-              alt="Edifício moderno de concreto" 
+              src="/lovable-uploads/parede-concreto.jpeg" 
+              alt="Fôrmas metálicas para parede de concreto" 
               className="w-full h-64 md:h-80 object-cover"
             />
           </div>
