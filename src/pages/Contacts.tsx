@@ -219,7 +219,7 @@ const Contacts = () => {
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-500 to-sage-green-600 text-white rounded-lg hover:from-blue-600 hover:to-sage-green-700 transition-all duration-300 text-lg font-semibold"
             >
               <ArrowLeft className="w-5 h-5 mr-2" />
-              Voltar ao Manual
+              Voltar ao Início
             </Link>
           </div>
         </div>
