@@ -55,16 +55,16 @@ const SpaceOrganization = () => {
           <div className="mb-12 rounded-2xl overflow-hidden shadow-lg">
             <img 
               src="/lovable-uploads/9f33b359-88b0-4d6c-ae10-715c5d0afcea.png" 
-              alt="Sala integrada do Residencial Magnólia" 
+              alt="Sala integrada do Morada das Magnólias" 
               className="w-full h-64 md:h-80 object-cover cursor-pointer hover:opacity-90 transition-opacity"
               onClick={() => openImageModal(
                 "/lovable-uploads/9f33b359-88b0-4d6c-ae10-715c5d0afcea.png", 
-                "Sala integrada do Residencial Magnólia",
-                "Apartamento do Residencial Magnólia - Layout integrado otimizado"
+                "Sala integrada do Morada das Magnólias",
+                "Apartamento do Morada das Magnólias - Layout integrado otimizado"
               )}
             />
             <div className="bg-white p-4 text-center">
-              <p className="text-sage-green-700 font-medium">Apartamento do Residencial Magnólia - Layout integrado otimizado</p>
+              <p className="text-sage-green-700 font-medium">Apartamento do Morada das Magnólias - Layout integrado otimizado</p>
             </div>
           </div>
 

@@ -143,7 +143,7 @@ const Index = () => {
 
           <div className="text-center text-white/60 text-sm border-t border-white/20 pt-6">
             <p>&copy; 2024 COHAGRA - Todos os direitos reservados</p>
-            <p className="mt-2">Portal Magnólia - Morar Bem - Guia de Cuidados com a Moradia</p>
+            <p className="mt-2">Morada das Magnólias - Morar Bem - Guia de Cuidados com a Moradia</p>
           </div>
         </footer>
       </main>

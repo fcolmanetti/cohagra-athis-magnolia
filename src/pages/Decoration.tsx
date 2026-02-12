@@ -30,7 +30,7 @@ const Decoration = () => {
           <div className="mb-12 rounded-2xl overflow-hidden shadow-lg">
             <img 
               src="/lovable-uploads/c0397237-44b4-47d9-9a9c-0c07160210c4.png" 
-              alt="Sala decorada do Residencial Magnólia" 
+              alt="Sala decorada do Morada das Magnólias" 
               className="w-full h-64 md:h-80 object-cover"
             />
             <div className="bg-white p-4 text-center">

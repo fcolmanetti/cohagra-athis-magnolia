@@ -20,7 +20,7 @@ const WelcomeHero = () => {
               </h1>
               
               <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in">
-                Residencial Magnólia - COHAGRA / Uberaba - MG
+                Morada das Magnólias - COHAGRA / Uberaba - MG
               </p>
               
               <div className="grid md:grid-cols-3 gap-6 mt-8">
@@ -54,11 +54,11 @@ const WelcomeHero = () => {
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/lovable-uploads/9f33b359-88b0-4d6c-ae10-715c5d0afcea.png" 
-                  alt="Apartamento do Residencial Magnólia" 
+                  alt="Apartamento do Morada das Magnólias" 
                   className="w-full h-64 md:h-80 object-cover"
                 />
                 <div className="bg-white/10 backdrop-blur-sm p-4 text-center">
-                  <p className="text-white/90 font-medium">Seu novo apartamento no Residencial Magnólia</p>
+                  <p className="text-white/90 font-medium">Seu novo apartamento no Morada das Magnólias</p>
                 </div>
               </div>
             </div>

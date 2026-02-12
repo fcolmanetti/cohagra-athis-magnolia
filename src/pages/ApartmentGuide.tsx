@@ -39,11 +39,11 @@ const ApartmentGuide = () => {
             <div className="mb-6 rounded-lg overflow-hidden">
               <img 
                 src="/lovable-uploads/2739f78f-ac39-496c-a1f8-ae27fb6c4c36.png" 
-                alt="Planta baixa detalhada do apartamento do Residencial Magnólia" 
+                alt="Planta baixa detalhada do apartamento do Morada das Magnólias" 
                 className="w-full h-96 md:h-[500px] object-contain bg-gray-50"
               />
               <div className="bg-blue-50 p-3 text-center">
-                <p className="text-blue-700 text-sm">Planta baixa oficial do apartamento - Residencial Magnólia com dimensões</p>
+                <p className="text-blue-700 text-sm">Planta baixa oficial do apartamento - Morada das Magnólias com dimensões</p>
               </div>
             </div>
 
