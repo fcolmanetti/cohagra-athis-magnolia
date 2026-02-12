@@ -28,7 +28,7 @@ const Header = () => {
                   <Home className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-lg sm:text-xl font-bold text-warm-brown-800">Portal Magnólia</h1>
+                  <h1 className="text-lg sm:text-xl font-bold text-warm-brown-800">Morada das Magnólias</h1>
                   <p className="text-xs sm:text-sm text-sage-green-600">Morar Bem - Guia de Cuidados com a Moradia</p>
                 </div>
               </Link>

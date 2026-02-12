@@ -19,11 +19,11 @@ export const LavanderiaTab = ({ openImageModal }: LavanderiaTabProps) => {
       <div className="mb-8 rounded-lg overflow-hidden">
         <img 
           src="/lovable-uploads/2c282db3-dc17-49e8-a3e5-cbeb2469b6db.png" 
-          alt="Área da lavanderia do Residencial Magnólia" 
+          alt="Área da lavanderia do Morada das Magnólias" 
           className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
           onClick={() => openImageModal(
             "/lovable-uploads/2c282db3-dc17-49e8-a3e5-cbeb2469b6db.png", 
-            "Área da lavanderia do Residencial Magnólia",
+            "Área da lavanderia do Morada das Magnólias",
             "Área de serviço com lavadora e organização eficiente"
           )}
         />
@@ -68,7 +68,7 @@ export const LavanderiaTab = ({ openImageModal }: LavanderiaTabProps) => {
         <div className="bg-amber-50 border-l-4 border-amber-500 p-4">
           <p className="text-amber-700 text-sm">
             <strong>💡 Importante:</strong> Estas medidas foram calculadas considerando o espaço disponível 
-            e a circulação adequada na lavanderia do Residencial Magnólia.
+            e a circulação adequada na lavanderia do Morada das Magnólias.
           </p>
         </div>
       </div>

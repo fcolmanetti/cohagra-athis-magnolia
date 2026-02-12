@@ -19,7 +19,7 @@ const Contacts = () => {
             <h1 className="text-3xl md:text-4xl font-bold">Contatos Úteis</h1>
           </div>
           <p className="text-xl text-white/90">
-            Todos os contatos importantes para sua vida no Residencial Magnólia
+            Todos os contatos importantes para sua vida no Morada das Magnólias
           </p>
         </div>
       </div>

@@ -25,11 +25,11 @@ export const QuartosTab = ({ openImageModal }: QuartosTabProps) => {
         <div className="mb-8 rounded-lg overflow-hidden">
           <img 
             src="/lovable-uploads/e9ed53e7-522f-460f-a69c-b6e33983665b.png" 
-            alt="Quarto casal do Residencial Magnólia - Opção 1" 
+            alt="Quarto casal do Morada das Magnólias - Opção 1" 
             className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
             onClick={() => openImageModal(
               "/lovable-uploads/e9ed53e7-522f-460f-a69c-b6e33983665b.png", 
-              "Quarto casal do Residencial Magnólia - Opção 1",
+              "Quarto casal do Morada das Magnólias - Opção 1",
               "Quarto casal com cama queen size e decoração moderna"
             )}
           />
@@ -49,11 +49,11 @@ export const QuartosTab = ({ openImageModal }: QuartosTabProps) => {
         <div className="mb-8 rounded-lg overflow-hidden">
           <img 
             src="/lovable-uploads/a95f743f-5dec-4ec9-9909-030001d0ca4d.png" 
-            alt="Quarto com beliche do Residencial Magnólia - Opção 2" 
+            alt="Quarto com beliche do Morada das Magnólias - Opção 2" 
             className="w-full h-48 md:h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity"
             onClick={() => openImageModal(
               "/lovable-uploads/a95f743f-5dec-4ec9-9909-030001d0ca4d.png", 
-              "Quarto com beliche do Residencial Magnólia - Opção 2",
+              "Quarto com beliche do Morada das Magnólias - Opção 2",
               "Quarto com beliche e decoração colorida para crianças"
             )}
           />
@@ -118,7 +118,7 @@ export const QuartosTab = ({ openImageModal }: QuartosTabProps) => {
         <div className="bg-amber-50 border-l-4 border-amber-500 p-4">
           <p className="text-amber-700 text-sm">
             <strong>💡 Importante:</strong> Estas medidas foram calculadas considerando o espaço disponível 
-            e a circulação adequada nos quartos do Residencial Magnólia.
+            e a circulação adequada nos quartos do Morada das Magnólias.
           </p>
         </div>
       </div>

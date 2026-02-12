@@ -18,7 +18,7 @@ const Chatbot = ({ isOpen, onClose }: ChatbotProps) => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      text: "Olá! Sou o assistente virtual do Portal Magnólia. Como posso ajudá-lo com informações sobre seu apartamento?",
+      text: "Olá! Sou o assistente virtual do Morada das Magnólias. Como posso ajudá-lo com informações sobre seu apartamento?",
       isUser: false,
       timestamp: new Date()
     }
