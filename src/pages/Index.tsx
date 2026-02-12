@@ -108,10 +108,16 @@ const Index = () => {
               </div>
             </div>
             <h3 className="text-2xl font-bold mb-4">
-              COHAGRA - Companhia Habitacional do Vale do Rio Grande
+              COHAGRA – Cia. Habitacional do Vale do Rio Grande
             </h3>
+            <p className="text-white/80 max-w-2xl mx-auto mb-4">
+              A COHAGRA – Cia. Habitacional do Vale do Rio Grande, constituída pela Lei 3.920 – 24/08/1987, tem como objetivo social promover o desenvolvimento urbano do município e da região por intermédio da implementação de política habitacional de interesse social.
+            </p>
+            <p className="text-white/80 max-w-2xl mx-auto mb-4">
+              Atuamos na produção e comercialização de unidades habitacionais e lotes urbanizados de interesse social, programas e projetos de desenvolvimento comunitário e regularização fundiária.
+            </p>
             <p className="text-white/80 max-w-2xl mx-auto mb-8">
-              Nossa equipe é formada por profissionais comprometidos com a transformação social através da habitação de qualidade. Trabalhamos incansavelmente para garantir que cada família tenha acesso a moradia digna e segura. Acesse o seu recurso ATHIS, é gratuito.
+              Nossa equipe é formada por profissionais comprometidos com a transformação social através de políticas públicas de qualidade. Trabalhamos incansavelmente para garantir que cada família tenha acesso a moradia digna e segura.
             </p>
           </div>
 
