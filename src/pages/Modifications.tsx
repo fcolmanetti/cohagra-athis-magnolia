@@ -33,8 +33,10 @@ const Modifications = () => {
               <AlertTriangle className="w-8 h-8 text-red-600 mr-4" />
               <h2 className="text-2xl font-bold text-red-800">ATENÇÃO FUNDAMENTAL</h2>
             </div>
+            <p className="text-red-700 text-lg font-bold mb-2">
+              NUNCA altere a estrutura ou abra vãos nas paredes.
+            </p>
             <p className="text-red-700 text-lg mb-4">
-              <strong>NUNCA altere a estrutura ou abra vãos nas paredes.</strong> 
               As paredes de concreto são estruturais e qualquer modificação pode comprometer 
               a segurança de todo o edifício.
             </p>
