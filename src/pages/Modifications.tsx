@@ -218,7 +218,7 @@ const Modifications = () => {
                   <span className="text-blue-600 text-xl">📝</span>
                 </div>
                 <h4 className="font-semibold text-warm-brown-800 mb-2">Projeto Técnico</h4>
-                <p className="text-sm text-sage-green-600">Elaboração por profissional</p>
+                <p className="text-sm text-sage-green-600">Elaborado por profissionais habilitados</p>
               </div>
               
               <div className="text-center p-4 bg-gray-50 rounded-lg">
