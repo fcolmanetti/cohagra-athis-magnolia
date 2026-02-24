@@ -39,7 +39,7 @@ const Modifications = () => {
               a segurança de todo o edifício.
             </p>
             <p className="text-red-700">
-              Consulte sempre um profissional técnico habilitado e a COHAGRA antes de 
+              Consulte sempre um profissional técnico habilitado e o Síndico antes de 
               qualquer modificação, por menor que seja.
             </p>
           </div>
@@ -172,7 +172,7 @@ const Modifications = () => {
                 Mesmo para modificações permitidas, você deve:
               </p>
               <ol className="space-y-1 text-yellow-700">
-                <li>1. Consultar a COHAGRA sobre a viabilidade</li>
+                <li>1. Consultar o Síndico sobre a viabilidade</li>
                 <li>2. Apresentar projeto técnico quando necessário</li>
                 <li>3. Aguardar autorização por escrito</li>
                 <li>4. Usar apenas profissionais qualificados</li>
@@ -207,20 +207,12 @@ const Modifications = () => {
                   <li>• Planta baixa atual do apartamento</li>
                   <li>• Projeto detalhado da modificação</li>
                   <li>• ART ou RRT do profissional</li>
-                  <li>• Autorização da COHAGRA</li>
+                  <li>• Autorização do Síndico</li>
                 </ul>
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <span className="text-blue-600 text-xl">📞</span>
-                </div>
-                <h4 className="font-semibold text-warm-brown-800 mb-2">Consulta Prévia</h4>
-                <p className="text-sm text-sage-green-600">Entre em contato com a COHAGRA</p>
-              </div>
-              
+            <div className="grid md:grid-cols-2 gap-6">
               <div className="text-center p-4 bg-gray-50 rounded-lg">
                 <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                   <span className="text-blue-600 text-xl">📝</span>
@@ -234,7 +226,7 @@ const Modifications = () => {
                   <span className="text-blue-600 text-xl">✅</span>
                 </div>
                 <h4 className="font-semibold text-warm-brown-800 mb-2">Autorização</h4>
-                <p className="text-sm text-sage-green-600">Aprovação oficial necessária</p>
+                <p className="text-sm text-sage-green-600">Aprovação necessária do Síndico</p>
               </div>
             </div>
           </div>
