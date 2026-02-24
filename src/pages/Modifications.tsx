@@ -198,8 +198,6 @@ const Modifications = () => {
                 <ul className="space-y-2 text-blue-700">
                   <li>• Arquiteto (CAU - Conselho de Arquitetura)</li>
                   <li>• Engenheiro Civil (CREA - Conselho Regional)</li>
-                  <li>• Técnico em Edificações credenciado</li>
-                  <li>• Especialista em estruturas de concreto</li>
                 </ul>
               </div>
 
