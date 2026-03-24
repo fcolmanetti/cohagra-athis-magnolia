@@ -139,8 +139,27 @@ const ApartmentGuide = () => {
               Conheça a infraestrutura disponível no seu condomínio, com destaque para o paisagismo e as áreas comuns.
             </p>
 
-            <div className="mb-6 rounded-lg overflow-hidden bg-gray-50 flex items-center justify-center p-8 border-2 border-dashed border-gray-300 min-h-[300px]">
-              <p className="text-gray-400 text-center">Imagem 3D do condomínio com destaque para o paisagismo<br/>(a ser inserida)</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+              <div className="rounded-lg overflow-hidden">
+                <img src="/images/condominio-perspectiva-2.png" alt="Perspectiva aérea do condomínio Morada das Magnólias com paisagismo" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Perspectiva aérea - Vista geral</p>
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <img src="/images/condominio-perspectiva-1.png" alt="Perspectiva aérea do condomínio com destaque para áreas comuns" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Perspectiva aérea - Áreas comuns</p>
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <img src="/images/condominio-paisagismo-1.png" alt="Paisagismo interno do condomínio com jardins e piso tátil" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Paisagismo e acessibilidade</p>
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <img src="/images/condominio-paisagismo-2.png" alt="Vias internas do condomínio com paisagismo" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Vias internas e paisagismo</p>
+              </div>
+            </div>
+            <div className="rounded-lg overflow-hidden mb-6">
+              <img src="/images/condominio-implantacao.jpg" alt="Planta de implantação geral do condomínio Morada das Magnólias" className="w-full h-auto object-contain bg-gray-50 cursor-pointer hover:opacity-90 transition-opacity" />
+              <p className="text-sm text-center text-green-700 bg-green-50 p-2">Planta de Implantação Geral</p>
             </div>
 
             <div className="bg-green-50 p-6 rounded-lg">
