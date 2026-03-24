@@ -126,55 +126,6 @@ const ApartmentGuide = () => {
           </div>
 
 
-          {/* Conhecendo o Condomínio */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
-            <div className="flex items-center mb-6">
-              <div className="bg-green-100 p-3 rounded-full mr-4">
-                <Building2 className="w-6 h-6 text-green-600" />
-              </div>
-              <h2 className="text-2xl font-bold text-warm-brown-800">Conhecendo o Condomínio</h2>
-            </div>
-            
-            <p className="text-sage-green-700 mb-6 text-lg">
-              Conheça a infraestrutura disponível no seu condomínio, com destaque para o paisagismo e as áreas comuns.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-              <div className="rounded-lg overflow-hidden">
-                <img src="/images/condominio-perspectiva-2.png" alt="Perspectiva aérea do condomínio Morada das Magnólias com paisagismo" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
-                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Perspectiva aérea - Vista geral</p>
-              </div>
-              <div className="rounded-lg overflow-hidden">
-                <img src="/images/condominio-perspectiva-1.png" alt="Perspectiva aérea do condomínio com destaque para áreas comuns" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
-                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Perspectiva aérea - Áreas comuns</p>
-              </div>
-              <div className="rounded-lg overflow-hidden">
-                <img src="/images/condominio-paisagismo-1.png" alt="Paisagismo interno do condomínio com jardins e piso tátil" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
-                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Paisagismo e acessibilidade</p>
-              </div>
-              <div className="rounded-lg overflow-hidden">
-                <img src="/images/condominio-paisagismo-2.png" alt="Vias internas do condomínio com paisagismo" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
-                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Vias internas e paisagismo</p>
-              </div>
-            </div>
-            <div className="rounded-lg overflow-hidden mb-6">
-              <img src="/images/condominio-implantacao.jpg" alt="Planta de implantação geral do condomínio Morada das Magnólias" className="w-full h-auto object-contain bg-gray-50 cursor-pointer hover:opacity-90 transition-opacity" />
-              <p className="text-sm text-center text-green-700 bg-green-50 p-2">Planta de Implantação Geral</p>
-            </div>
-
-            <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="font-semibold text-green-800 mb-3">🏗️ Infraestrutura Disponível:</h3>
-              <ul className="space-y-2 text-green-700">
-                <li>• <strong>Centro Comunitário</strong></li>
-                <li>• <strong>Sala do Síndico</strong></li>
-                <li>• <strong>Biblioteca</strong></li>
-                <li>• <strong>Espaço Descoberto para Lazer e Recreação Infantil</strong></li>
-                <li>• <strong>Bicicletário</strong> (60 unidades)</li>
-                <li>• <strong>Depósito de Lixo</strong></li>
-                <li>• <strong>Guarita</strong></li>
-              </ul>
-            </div>
-          </div>
 
           <div className="mt-12 text-center">
             <Link 

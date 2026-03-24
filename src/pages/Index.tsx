@@ -18,6 +18,13 @@ import SectionCard from "../components/SectionCard";
 const Index = () => {
   const sections = [
     {
+      title: "Conhecendo o Condomínio",
+      description: "Conheça a infraestrutura e o paisagismo do seu condomínio",
+      icon: Building2,
+      to: "/conhecendo-condominio",
+      color: "green" as const
+    },
+    {
       title: "Conhecendo seu Apartamento",
       description: "Entenda a arquitetura e as características únicas da sua nova moradia",
       icon: Home,
