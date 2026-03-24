@@ -126,6 +126,37 @@ const ApartmentGuide = () => {
           </div>
 
 
+          {/* Conhecendo o Condomínio */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <div className="flex items-center mb-6">
+              <div className="bg-green-100 p-3 rounded-full mr-4">
+                <Building2 className="w-6 h-6 text-green-600" />
+              </div>
+              <h2 className="text-2xl font-bold text-warm-brown-800">Conhecendo o Condomínio</h2>
+            </div>
+            
+            <p className="text-sage-green-700 mb-6 text-lg">
+              Conheça a infraestrutura disponível no seu condomínio, com destaque para o paisagismo e as áreas comuns.
+            </p>
+
+            <div className="mb-6 rounded-lg overflow-hidden bg-gray-50 flex items-center justify-center p-8 border-2 border-dashed border-gray-300 min-h-[300px]">
+              <p className="text-gray-400 text-center">Imagem 3D do condomínio com destaque para o paisagismo<br/>(a ser inserida)</p>
+            </div>
+
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="font-semibold text-green-800 mb-3">🏗️ Infraestrutura Disponível:</h3>
+              <ul className="space-y-2 text-green-700">
+                <li>• <strong>Centro Comunitário</strong></li>
+                <li>• <strong>Sala do Síndico</strong></li>
+                <li>• <strong>Biblioteca</strong></li>
+                <li>• <strong>Espaço Descoberto para Lazer e Recreação Infantil</strong></li>
+                <li>• <strong>Bicicletário</strong> (60 unidades)</li>
+                <li>• <strong>Depósito de Lixo</strong></li>
+                <li>• <strong>Guarita</strong></li>
+              </ul>
+            </div>
+          </div>
+
           <div className="mt-12 text-center">
             <Link 
               to="/espacos" 
