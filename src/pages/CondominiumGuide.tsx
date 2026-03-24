@@ -50,12 +50,32 @@ const CondominiumGuide = () => {
                 <p className="text-sm text-center text-green-700 bg-green-50 p-2">Perspectiva aérea - Áreas comuns</p>
               </div>
               <div className="rounded-lg overflow-hidden">
+                <img src="/images/condominio-perspectiva-3.png" alt="Perspectiva 3D do condomínio com playground e estacionamento" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Perspectiva - Playground e estacionamento</p>
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <img src="/images/condominio-centro-comunitario.png" alt="Centro Comunitário do condomínio" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Centro Comunitário</p>
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <img src="/images/condominio-foto-1.png" alt="Vias internas do condomínio com paisagismo e jardins" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Vias internas e paisagismo</p>
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <img src="/images/condominio-foto-2.png" alt="Calçamento e paisagismo do condomínio" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Calçamento e paisagismo</p>
+              </div>
+              <div className="rounded-lg overflow-hidden">
                 <img src="/images/condominio-paisagismo-1.png" alt="Paisagismo interno do condomínio com jardins e piso tátil" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
                 <p className="text-sm text-center text-green-700 bg-green-50 p-2">Paisagismo e acessibilidade</p>
               </div>
               <div className="rounded-lg overflow-hidden">
                 <img src="/images/condominio-paisagismo-2.png" alt="Vias internas do condomínio com paisagismo" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
-                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Vias internas e paisagismo</p>
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Vias internas e jardins</p>
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <img src="/images/condominio-bicicletario.png" alt="Bicicletário e área verde do condomínio" className="w-full h-64 object-cover cursor-pointer hover:opacity-90 transition-opacity" />
+                <p className="text-sm text-center text-green-700 bg-green-50 p-2">Bicicletário e área verde</p>
               </div>
             </div>
 
