@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import ApartmentGuide from "./pages/ApartmentGuide";
+import CondominiumGuide from "./pages/CondominiumGuide";
 import SpaceOrganization from "./pages/SpaceOrganization";
 import Decoration from "./pages/Decoration";
 import Maintenance from "./pages/Maintenance";
