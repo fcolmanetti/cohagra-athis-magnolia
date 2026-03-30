@@ -27,7 +27,6 @@ const Header = () => {
               </div>
               <div>
                 <h1 className="text-lg sm:text-xl font-bold text-warm-brown-800">Morada das Magnólias</h1>
-                <p className="text-xs sm:text-sm text-sage-green-600">Morar Bem - Guia de Cuidados com a Moradia</p>
               </div>
             </Link>
           </div>
