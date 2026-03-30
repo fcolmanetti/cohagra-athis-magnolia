@@ -10,7 +10,12 @@ const TopNav = () => {
   return (
     <div className="bg-warm-brown-800 text-white">
       <div className="container mx-auto px-4">
-        <div className="flex items-center gap-1 overflow-x-auto py-1 scrollbar-hide">
+        <div className="flex items-center justify-between py-2">
+          <p className="text-xs sm:text-sm font-medium tracking-wide">
+            Programa Morar BEM COHAGRA — Cuidar da casa, cuidar da vida.
+          </p>
+        </div>
+        <div className="flex items-center gap-1 overflow-x-auto pb-0 scrollbar-hide">
           {empreendimentos.map((emp) => (
             <button
               key={emp.name}
