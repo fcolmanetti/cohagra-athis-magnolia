@@ -2,8 +2,9 @@ import { cn } from "@/lib/utils";
 
 const empreendimentos = [
   { name: "Morada das Magnólias", active: true },
-  { name: "Empreendimento 2", active: false, comingSoon: true },
-  { name: "Empreendimento 3", active: false, comingSoon: true },
+  { name: "Morada das Magnólias II", active: false, comingSoon: true },
+  { name: "Alfredo Freire 4", active: false, comingSoon: true },
+  { name: "Residencial Cascata", active: false, comingSoon: true },
 ];
 
 const TopNav = () => {
