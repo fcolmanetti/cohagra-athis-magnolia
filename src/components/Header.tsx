@@ -1,10 +1,13 @@
 
 import { Home, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
+import TopNav from "./TopNav";
 
 const Header = () => {
   return (
-    <header className="bg-white/95 backdrop-blur-sm border-b border-warm-brown-200 sticky top-0 z-50">
+    <header className="sticky top-0 z-50">
+      <TopNav />
+      <div className="bg-white/95 backdrop-blur-sm border-b border-warm-brown-200">
       <div className="container mx-auto px-4 py-6 sm:py-4">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div className="flex items-center space-x-2 sm:space-x-4 justify-start">
