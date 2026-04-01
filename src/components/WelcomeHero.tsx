@@ -16,11 +16,15 @@ const WelcomeHero = () => {
               </div>
               
               <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-                Bem-vindo ao seu novo lar!
+                Bem-vindo ao seu novo lar! 🏡
               </h1>
               
-              <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in">
+              <p className="text-xl md:text-2xl mb-4 opacity-90 animate-fade-in">
                 Morada das Magnólias - COHAGRA / Uberaba - MG
+              </p>
+
+              <p className="text-lg md:text-xl mb-8 opacity-80 animate-fade-in">
+                Aqui você encontra tudo que precisa saber sobre a sua casa nova. É fácil de usar!
               </p>
               
               <div className="grid md:grid-cols-3 gap-6 mt-8">
@@ -28,24 +32,24 @@ const WelcomeHero = () => {
                   <div className="bg-white/20 p-3 rounded-full mb-4">
                     <Building2 className="w-6 h-6" />
                   </div>
-                  <h3 className="text-sm font-semibold mb-2">Primeira Entrega Vertical</h3>
-                  <p className="text-xs opacity-80">Tecnologia de parede de concreto em Uberaba</p>
+                  <h3 className="text-sm font-semibold mb-2">Conheça sua Casa</h3>
+                  <p className="text-xs opacity-80">Veja como é o seu apartamento por dentro</p>
                 </div>
                 
                 <div className="flex flex-col items-center text-center animate-scale-in">
                   <div className="bg-white/20 p-3 rounded-full mb-4">
                     <Heart className="w-6 h-6" />
                   </div>
-                  <h3 className="text-sm font-semibold mb-2">Conforto e Segurança</h3>
-                  <p className="text-xs opacity-80">Sua nova moradia com cuidados específicos</p>
+                  <h3 className="text-sm font-semibold mb-2">Cuide do seu Lar</h3>
+                  <p className="text-xs opacity-80">Dicas simples para manter tudo bonito</p>
                 </div>
                 
                 <div className="flex flex-col items-center text-center animate-scale-in">
                   <div className="bg-white/20 p-3 rounded-full mb-4">
                     <Users className="w-6 h-6" />
                   </div>
-                  <h3 className="text-sm font-semibold mb-2">Convivência Harmoniosa</h3>
-                  <p className="text-xs opacity-80">Orientações para viver bem em comunidade</p>
+                  <h3 className="text-sm font-semibold mb-2">Boa Vizinhança</h3>
+                  <p className="text-xs opacity-80">Como viver bem com seus vizinhos</p>
                 </div>
               </div>
             </div>
