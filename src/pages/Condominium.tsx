@@ -12,7 +12,7 @@ const Condominium = () => {
         <div className="container mx-auto px-4">
           <Link to="/" className="inline-flex items-center text-white/80 hover:text-white mb-4 transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Voltar ao início
+            ← Voltar para o início
           </Link>
           <div className="flex items-center mb-4">
             <Users className="w-8 h-8 mr-3" />
