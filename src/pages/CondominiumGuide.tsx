@@ -12,14 +12,14 @@ const CondominiumGuide = () => {
         <div className="container mx-auto px-4">
           <Link to="/" className="inline-flex items-center text-white/80 hover:text-white mb-4 transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Voltar ao início
+            ← Voltar para o início
           </Link>
           <div className="flex items-center mb-4">
             <Building2 className="w-8 h-8 mr-3" />
-            <h1 className="text-3xl md:text-4xl font-bold">Conhecendo o Condomínio</h1>
+            <h1 className="text-3xl md:text-4xl font-bold">🏘️ Conhecendo o Condomínio</h1>
           </div>
           <p className="text-xl text-white/90">
-            Conheça a infraestrutura e o paisagismo do seu condomínio
+            Veja como é o seu condomínio, as áreas de lazer e os espaços comuns
           </p>
         </div>
       </div>

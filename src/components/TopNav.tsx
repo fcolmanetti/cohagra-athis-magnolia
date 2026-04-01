@@ -9,12 +9,12 @@ const empreendimentos = [
 
 const TopNav = () => {
   return (
-    <div className="bg-warm-brown-800 text-white">
+    <div className="bg-warm-brown-900 text-white">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between py-2">
-          <p className="text-sm sm:text-base md:text-lg font-bold tracking-wide">
+        <div className="flex items-center justify-between py-3">
+          <p className="text-base sm:text-lg md:text-xl font-bold tracking-wide">
             🏠 Programa Morar BEM COHAGRA <span className="font-normal opacity-80">—</span>{" "}
-            <span className="italic font-normal text-warm-brown-200">Cuidar da casa, cuidar da vida.</span>
+            <span className="italic font-normal text-blue-200">Cuidar da casa, cuidar da vida.</span>
           </p>
         </div>
         <div className="flex items-center gap-1 overflow-x-auto pb-0 scrollbar-hide">

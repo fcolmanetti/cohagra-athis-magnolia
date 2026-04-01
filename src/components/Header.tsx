@@ -22,11 +22,12 @@ const Header = () => {
           
           <div className="flex justify-center sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2">
             <Link to="/" className="flex items-center space-x-2 sm:space-x-3 hover:opacity-80 transition-opacity">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-warm-brown-500 to-sage-green-600 rounded-xl flex items-center justify-center flex-shrink-0">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-warm-brown-600 to-sage-green-600 rounded-xl flex items-center justify-center flex-shrink-0">
                 <Home className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
               <div>
                 <h1 className="text-lg sm:text-xl font-bold text-warm-brown-800">Morada das Magnólias</h1>
+                <p className="text-xs text-warm-brown-500">Toque aqui para voltar ao início</p>
               </div>
             </Link>
           </div>
@@ -37,7 +38,7 @@ const Header = () => {
               className="flex items-center justify-center space-x-1 sm:space-x-2 px-4 py-2 bg-sage-green-100 text-sage-green-700 rounded-lg hover:bg-sage-green-200 transition-colors w-full sm:w-auto"
             >
               <Phone className="w-4 h-4" />
-              <span>Contatos</span>
+              <span>📞 Precisa de ajuda? Ligue aqui</span>
             </Link>
           </div>
         </div>
