@@ -22,9 +22,9 @@ const colorClasses = {
     accent: "bg-sage-green-100 text-sage-green-700"
   },
   blue: {
-    bg: "bg-gradient-to-br from-blue-500 to-blue-600",
-    hover: "hover:from-blue-600 hover:to-blue-700", 
-    accent: "bg-blue-100 text-blue-700"
+    bg: "bg-gradient-to-br from-warm-brown-500 to-warm-brown-600",
+    hover: "hover:from-warm-brown-600 hover:to-warm-brown-700", 
+    accent: "bg-warm-brown-100 text-warm-brown-700"
   },
   orange: {
     bg: "bg-gradient-to-br from-orange-500 to-orange-600",
@@ -43,7 +43,7 @@ const SectionCard = ({ title, description, icon: Icon, to, color }: SectionCardP
           <div className="flex items-center justify-between">
             <Icon className="w-8 h-8 text-white" />
             <div className={`px-3 py-1 rounded-full ${colors.accent} text-xs font-medium`}>
-              Guia
+              Toque para ver
             </div>
           </div>
         </div>

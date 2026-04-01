@@ -18,64 +18,64 @@ import SectionCard from "../components/SectionCard";
 const Index = () => {
   const sections = [
     {
-      title: "Conhecendo o Condomínio",
-      description: "Conheça a infraestrutura e o paisagismo do seu condomínio",
+      title: "🏘️ Conhecendo o Condomínio",
+      description: "Veja como é o seu condomínio, as áreas de lazer e os espaços que você pode usar",
       icon: Building2,
       to: "/conhecendo-condominio",
       color: "green" as const
     },
     {
-      title: "Conhecendo seu Apartamento",
-      description: "Entenda a arquitetura e as características únicas da sua nova moradia",
+      title: "🏠 Conhecendo seu Apartamento",
+      description: "Veja como é o seu apartamento por dentro e entenda cada cômodo",
       icon: Home,
       to: "/apartamento",
-      color: "brown" as const
+      color: "blue" as const
     },
     {
-      title: "Organização dos Espaços",
-      description: "Organize melhor os espaços com foco na melhor disposição dos móveis.",
+      title: "🛋️ Organização dos Espaços",
+      description: "Dicas de como arrumar os móveis e organizar cada cantinho da sua casa",
       icon: Layout,
       to: "/espacos",
       color: "green" as const
     },
     {
-      title: "Decoração e Interiores",
-      description: "Transforme seu lar em um ambiente acolhedor, bonito e cheio de personalidade.",
+      title: "🎨 Decoração e Interiores",
+      description: "Ideias simples e baratas para deixar sua casa bonita e aconchegante",
       icon: Palette,
       to: "/decoracao",
       color: "blue" as const
     },
     {
-      title: "Manutenção e Conservação",
-      description: "Mantenha seu apartamento sempre em bom estado com os cuidados corretos.",
+      title: "🔧 Manutenção e Conservação",
+      description: "Aprenda a cuidar da sua casa para ela durar muito tempo",
       icon: Wrench,
       to: "/manutencao",
       color: "orange" as const
     },
     {
-      title: "Viver em Condomínio",
-      description: "Regras de convivência e como ser um bom vizinho no seu novo lar.",
+      title: "🤝 Viver em Condomínio",
+      description: "Como conviver bem com os vizinhos e as regras do condomínio",
       icon: Users,
       to: "/condominio",
       color: "green" as const
     },
     {
-      title: "Responsabilidades",
-      description: "Entenda suas obrigações como morador e mantenha tudo em ordem.",
+      title: "📋 Suas Responsabilidades",
+      description: "O que você precisa fazer como morador para manter tudo em ordem",
       icon: FileText,
       to: "/responsabilidades",
-      color: "brown" as const
+      color: "blue" as const
     },
     {
-      title: "Alterações e Ampliações",
-      description: "O que pode e não pode ser modificado no seu apartamento.",
+      title: "⚠️ O que Pode e Não Pode Mudar",
+      description: "Saiba o que você pode alterar na sua casa e o que não pode mexer",
       icon: Settings,
       to: "/alteracoes",
       color: "orange" as const
     },
     {
-      title: "Tecnologia de Parede de Concreto",
-      description: "Informações importantes sobre o sistema construtivo do seu edifício.",
+      title: "🧱 Paredes de Concreto",
+      description: "Informações importantes sobre as paredes da sua casa — leia com atenção!",
       icon: AlertTriangle,
       to: "/tecnologia",
       color: "blue" as const
@@ -90,10 +90,10 @@ const Index = () => {
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-warm-brown-800 mb-4">
-            Morar Bem - Guia de Cuidados com a Moradia
+            📖 Guia de Cuidados com a sua Casa
           </h2>
           <p className="text-lg text-sage-green-600 max-w-2xl mx-auto">
-            Navegue pelos tópicos abaixo para descobrir tudo que você precisa saber sobre sua nova moradia
+            👇 Toque em qualquer quadro abaixo para saber mais. É só escolher o assunto!
           </p>
         </div>
 
@@ -104,7 +104,6 @@ const Index = () => {
             </div>
           ))}
         </div>
-
 
         {/* Rodapé Institucional */}
         <footer className="mt-16 bg-gradient-to-br from-warm-brown-800 to-sage-green-800 text-white rounded-2xl shadow-xl p-8">
@@ -128,7 +127,6 @@ const Index = () => {
             </p>
           </div>
 
-
           {/* Seção Precisa de Ajuda */}
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 mb-8 border border-white/20">
             <div className="text-center">
@@ -138,17 +136,17 @@ const Index = () => {
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">
-                Precisa de Ajuda?
+                📞 Precisa de Ajuda?
               </h3>
-              <p className="text-white/90 mb-6 max-w-2xl mx-auto">
-                Entre em contato com a COHAGRA ou use nosso assistente virtual para tirar dúvidas
+              <p className="text-white/90 mb-6 max-w-2xl mx-auto text-lg">
+                Se tiver dúvidas, entre em contato com a COHAGRA. Estamos aqui para ajudar você!
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link 
                   to="/contatos"
-                  className="px-6 py-3 bg-white text-warm-brown-800 rounded-lg hover:bg-white/90 transition-colors font-medium"
+                  className="px-6 py-3 bg-white text-warm-brown-800 rounded-lg hover:bg-white/90 transition-colors font-medium text-lg"
                 >
-                  Contatos Úteis
+                  📞 Ver Telefones e Contatos
                 </Link>
               </div>
             </div>
